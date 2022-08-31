@@ -1,0 +1,280 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": false,
+        "collapsed": true
+      }
+    },
+    "165298766840e8c63f": {
+      "type": "hero",
+      "blocks": {
+        "1652987668ef0a5a01-0": {
+          "type": "heading",
+          "settings": {
+            "text": "Mushroom Kit & Plug",
+            "max_width": 500
+          }
+        },
+        "3f8a7750-256a-4d34-a4b6-132aeaa0ce24": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><\/p><p><\/p>",
+            "max_width": 500
+          }
+        },
+        "1652987668ef0a5a01-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Growing Instructions",
+            "max_width": 500
+          }
+        },
+        "1652987668ef0a5a01-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "Shop now",
+            "link": "shopify:\/\/collections\/all",
+            "style": "border",
+            "size": "normal"
+          }
+        },
+        "4ca32e4a-b957-43fe-80b8-929638d3f5c5": {
+          "type": "paragraph",
+          "settings": {
+            "text": "",
+            "max_width": 500
+          }
+        }
+      },
+      "block_order": [
+        "1652987668ef0a5a01-0",
+        "3f8a7750-256a-4d34-a4b6-132aeaa0ce24",
+        "1652987668ef0a5a01-1",
+        "1652987668ef0a5a01-2",
+        "4ca32e4a-b957-43fe-80b8-929638d3f5c5"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Wholesalers_Wanted_3.jpg",
+        "video": "",
+        "alignment": "h-center v-top",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "1652987776c7e93c42": {
+      "type": "custom-content",
+      "blocks": {
+        "1652987775b3eb7ca2-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Caps_-_Product_Image_2.png",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "6dbd366e-310c-48b3-a874-d6c1c52e131f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Caps_-_Product_Image_3.png",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "8687c653-cec2-4161-b4bb-03507851a185": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Caps_-_Product_Image_4.png",
+            "width": "33%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1652987775b3eb7ca2-1",
+        "6dbd366e-310c-48b3-a874-d6c1c52e131f",
+        "8687c653-cec2-4161-b4bb-03507851a185"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "16529877008cbf9b28": {
+      "type": "faq",
+      "blocks": {
+        "1652987700608abf6b-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shiitake Mushroom Kit Instructions",
+            "content": "",
+            "page": "shiitake-kit-instructions",
+            "icon": "none"
+          }
+        },
+        "1652987700608abf6b-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Lions Mane Mushroom Kit Instructions",
+            "content": "",
+            "page": "lions-mane-instructions",
+            "icon": "none"
+          }
+        },
+        "1652987700608abf6b-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Oyster Mushroom Kit Instructions",
+            "content": "",
+            "page": "oyster-mushroom-kit-instructions",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "1652987700608abf6b-0",
+        "1652987700608abf6b-1",
+        "1652987700608abf6b-2"
+      ],
+      "settings": {
+        "title": "Mushroom Kit Growing Instructions",
+        "subtitle": "",
+        "show_background": false,
+        "expanded": true,
+        "content_max_width": 950,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "16529877720bc8f567": {
+      "type": "faq",
+      "blocks": {
+        "165298777209089978-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Log Inoculation Instructions",
+            "content": "",
+            "page": "detailed-log-inoculation",
+            "icon": "none"
+          }
+        },
+        "165298777209089978-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Question",
+            "content": "<p>Answer...<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "165298777209089978-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Question",
+            "content": "<p>Answer...<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "165298777209089978-0",
+        "165298777209089978-1",
+        "165298777209089978-2"
+      ],
+      "settings": {
+        "title": "Mushroom Plug Inoculation Instructions",
+        "subtitle": "",
+        "show_background": false,
+        "expanded": true,
+        "content_max_width": 950,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "1652988111488022db": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "1652988111ac1e4e0a-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Question",
+            "content": "<p>Answer...<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "1652988111ac1e4e0a-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Question",
+            "content": "<p>Answer...<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "1652988111ac1e4e0a-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Question",
+            "content": "<p>Answer...<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "1652988111ac1e4e0a-0",
+        "1652988111ac1e4e0a-1",
+        "1652988111ac1e4e0a-2"
+      ],
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "show_background": false,
+        "expanded": true,
+        "content_max_width": 950,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165298766840e8c63f",
+    "1652987776c7e93c42",
+    "16529877008cbf9b28",
+    "16529877720bc8f567",
+    "1652988111488022db"
+  ]
+}

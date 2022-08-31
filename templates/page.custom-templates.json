@@ -1,0 +1,385 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": false,
+        "collapsed": true
+      }
+    },
+    "165275276427baf1e7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<html>\n<center>\n<h2> Hero Video Background <h2>\n<br>\n<center>\n<\/html>",
+        "show_as_section": true,
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "1652752704a2d98231": {
+      "type": "hero",
+      "blocks": {
+        "1652752704df64f11f-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Shop All Mushroom Kits",
+            "max_width": 500
+          }
+        },
+        "1652752704df64f11f-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero subheading",
+            "max_width": 500
+          }
+        },
+        "1652752704df64f11f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "Shop now",
+            "link": "shopify:\/\/collections\/all",
+            "style": "border",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "1652752704df64f11f-0",
+        "1652752704df64f11f-1",
+        "1652752704df64f11f-2"
+      ],
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f64475279b984c82bc6403e5051f4a94.mp4",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "16527527373850aca1": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<html>\n<center>\n<h2> Hero Video Product Banner <h2>\n\n<h3> 1500px x 400px <\/h3>\n<br>\n<\/center>\n<\/html>",
+        "show_as_section": true,
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "16527527358b9fc139": {
+      "type": "hero",
+      "blocks": {
+        "1652752735f367af12-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero heading",
+            "max_width": 500
+          }
+        },
+        "1652752735f367af12-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero subheading",
+            "max_width": 500
+          }
+        },
+        "1652752735f367af12-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "Shop now",
+            "link": "shopify:\/\/collections\/all",
+            "style": "border",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "1652752735f367af12-0",
+        "1652752735f367af12-1",
+        "1652752735f367af12-2"
+      ],
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4a8637b271564ac4a1e87208bb93c338.mp4",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "1652752844bd93a989": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<html>\n<center>\n<h2> Hero Video Product Banner <h2>\n<br>\n<center>\n<\/html>",
+        "show_as_section": true,
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "16529239045edffd5e": {
+      "type": "hero",
+      "blocks": {
+        "1652923904daa81152-0": {
+          "type": "heading",
+          "settings": {
+            "text": "Grow Something Magical Today",
+            "max_width": 500
+          }
+        },
+        "1652923904daa81152-2": {
+          "type": "button",
+          "settings": {
+            "text": "Shop Mushroom Kits",
+            "link": "shopify:\/\/collections\/all",
+            "style": "accent",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "1652923904daa81152-0",
+        "1652923904daa81152-2"
+      ],
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/45e29a759d354294ae7519b039d94e01.mp4",
+        "alignment": "h-right v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "1652923984723f7cd2": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<html>\n<center>\n<h2> Hero Video Product Banner <h2>\n<br>\n<center>\n<\/html>",
+        "show_as_section": true,
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "16529240042838b9a8": {
+      "type": "hero",
+      "blocks": {
+        "16529240047369f280-0": {
+          "type": "heading",
+          "settings": {
+            "text": "Start Cooking Tonight!",
+            "max_width": 500
+          }
+        },
+        "68411402-4aa5-4c11-b309-e914ad83015b": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Checkout some of our favorite Mushroom recipes for cooking!<\/p><p><\/p>",
+            "max_width": 470
+          }
+        },
+        "16529240047369f280-2": {
+          "type": "button",
+          "settings": {
+            "text": "Mushroom REcipes",
+            "link": "shopify:\/\/collections\/all",
+            "style": "border",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "16529240047369f280-0",
+        "68411402-4aa5-4c11-b309-e914ad83015b",
+        "16529240047369f280-2"
+      ],
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b7db6137d034123a0bb9fa6a654352b.mp4",
+        "alignment": "h-right v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "16529239566eae5113": {
+      "type": "hero",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/29601fe6bc414f16852b68660b9417a3.mp4",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "16529242328cec8697": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<html>\n<center>\n<h2> Hero Video Product Banner <h2>\n<br>\n<center>\n<\/html>",
+        "show_as_section": true,
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "16529353380294fb8a": {
+      "type": "hero",
+      "disabled": true,
+      "blocks": {
+        "1652935337463d09b6-0": {
+          "type": "heading",
+          "settings": {
+            "text": "Hero heading",
+            "max_width": 500
+          }
+        },
+        "1652935337463d09b6-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Hero subheading",
+            "max_width": 500
+          }
+        },
+        "1652935337463d09b6-2": {
+          "type": "button",
+          "settings": {
+            "text": "Shop now",
+            "link": "shopify:\/\/collections\/all",
+            "style": "border",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "1652935337463d09b6-0",
+        "1652935337463d09b6-1",
+        "1652935337463d09b6-2"
+      ],
+      "settings": {
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "1652935378ca9a708a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<html>\n<center>\n<h2> Rotating Partner Banner <h2>\n<br>\n<center>\n<\/html>",
+        "show_as_section": true,
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "16529353400ad25027": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-c63405d2-6589-4d4d-9f88-bae2b8595e4a\"><\/div>",
+        "show_as_section": true,
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165275276427baf1e7",
+    "1652752704a2d98231",
+    "16527527373850aca1",
+    "16527527358b9fc139",
+    "1652752844bd93a989",
+    "16529239045edffd5e",
+    "1652923984723f7cd2",
+    "16529240042838b9a8",
+    "16529239566eae5113",
+    "16529242328cec8697",
+    "16529353380294fb8a",
+    "1652935378ca9a708a",
+    "16529353400ad25027"
+  ]
+}

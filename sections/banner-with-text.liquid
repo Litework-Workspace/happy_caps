@@ -1,0 +1,216 @@
+<div class="content banner-with-text position-{{ section.settings.text_position }} align-{{ section.settings.text_align }} show-background {% render 'content-classes', scope: section %}">
+  <div class="background">
+    {% if section.settings.image %}
+      <div class="image"></div>
+      <style type="text/css">
+        #shopify-section-{{ section.id }} .image {
+          background-position: {{ section.settings.image_position }};
+          background-repeat: no-repeat;
+          {% render 'resp-bg-img', image: section.settings.image, size: '4096x' %}
+        }
+        {% assign sizes = "2048,1944,1728,1512,1024,768,512,375" | split: "," %}
+        {% for size in sizes %}
+          {% assign size_x = size | append: 'x' %}
+          @media screen and (max-width: {{ size }}px) {
+            #shopify-section-{{ section.id }} .image {
+              {% render 'resp-bg-img', image: section.settings.image, size: size_x %}
+            }
+          }
+        {% endfor %}
+      </style>
+    {% else %}
+      {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+    {% endif %}
+  </div>
+  <div class="info" style="max-width: {{ section.settings.content_max_width }}px;">
+    {% if section.settings.title != blank %}
+      <h1>{{ section.settings.title | escape }}</h1>
+    {% endif %}
+    {% if section.settings.text != blank %}
+      {{ section.settings.text }}
+    {% endif %}
+    {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+      <p>
+        <a href="{{ section.settings.button_link }}" class="btn border more">
+          {{ section.settings.button_label | escape }}
+        </a>
+      </p>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "t:sections.banner-with-text.name",
+    "class": "banner-with-text-section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:sections.banner-with-text.settings.image.label"
+      },
+      {
+        "type": "select",
+        "id": "image_position",
+        "label": "t:sections.banner-with-text.settings.image_position.label",
+        "default": "center center",
+        "options": [
+          {
+            "label": "t:sections.banner-with-text.settings.image_position.options__1",
+            "value": "top left"
+          },
+          {
+            "label": "t:sections.banner-with-text.settings.image_position.options__2",
+            "value": "top center"
+          },
+          {
+            "label": "t:sections.banner-with-text.settings.image_position.options__3",
+            "value": "top right"
+          },
+          {
+            "label": "t:sections.banner-with-text.settings.image_position.options__4",
+            "value": "center left"
+          },
+          {
+            "label": "t:sections.banner-with-text.settings.image_position.options__5",
+            "value": "center center"
+          },
+          {
+            "label": "t:sections.banner-with-text.settings.image_position.options__6",
+            "value": "center right"
+          },
+          {
+            "label": "t:sections.banner-with-text.settings.image_position.options__7",
+            "value": "bottom left"
+          },
+          {
+            "label": "t:sections.banner-with-text.settings.image_position.options__8",
+            "value": "bottom center"
+          },
+          {
+            "label": "t:sections.banner-with-text.settings.image_position.options__9",
+            "value": "bottom right"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "text_position",
+        "label": "t:sections.banner-with-text.settings.text_position.label",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.banner-with-text.settings.text_position.options__1"
+          },
+          {
+            "value": "center",
+            "label": "t:sections.banner-with-text.settings.text_position.options__2"
+          },
+          {
+            "value": "right",
+            "label": "t:sections.banner-with-text.settings.text_position.options__3"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "text_align",
+        "label": "t:sections.banner-with-text.settings.text_align.label",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.banner-with-text.settings.text_align.options__1"
+          },
+          {
+            "value": "center",
+            "label": "t:sections.banner-with-text.settings.text_align.options__2"
+          },
+          {
+            "value": "right",
+            "label": "t:sections.banner-with-text.settings.text_align.options__3"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "t:sections.banner-with-text.settings.title.label",
+        "default": {
+          "en": "Image banner with text",
+          "es": "Imagen con texto"
+        }
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "t:sections.banner-with-text.settings.text.label",
+        "default": {
+          "en": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "es": "<p>Vincula un texto largo con una imagen para dar visibilidad a tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad, estilo, o incluso ofrece una reseña.</p>"
+        }
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "t:sections.banner-with-text.settings.button_label.label",
+        "default": "Explore"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "t:sections.banner-with-text.settings.button_link.label"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.settings.header.content"
+      },
+      {
+        "type": "checkbox",
+        "id": "expanded",
+        "label": "t:sections.settings.expanded.label",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "expanded_content",
+        "label": "t:sections.settings.expanded_content.label",
+        "default": false
+      },
+      {
+        "type": "range",
+        "id": "content_max_width",
+        "label": "t:sections.settings.content_max_width.label",
+        "default": 400,
+        "min": 300,
+        "max": 1000,
+        "step": 50,
+        "unit": "px"
+      },
+      {
+        "type": "checkbox",
+        "id": "collapsed",
+        "label": "t:sections.settings.collapsed.label",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show_on_desktop",
+        "label": "t:sections.settings.show_on_desktop.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_on_mobile",
+        "label": "t:sections.settings.show_on_mobile.label",
+        "default": true
+      }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.banner-with-text.presets.name"
+      }
+    ]
+  }
+{% endschema %}

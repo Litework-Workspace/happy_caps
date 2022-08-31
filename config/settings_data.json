@@ -1,0 +1,381 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_section_bg": "#ffffff",
+    "color_body_text": "#121212",
+    "color_accent": "#e96b52",
+    "color_sold_out": "#353333",
+    "color_logo_text": "#121212",
+    "color_footer_top_bg": "#1C1E20",
+    "color_footer_top_accent": "#ffffff",
+    "color_footer_top_text": "#ffffff",
+    "color_footer_btm_bg": "#1c1e20",
+    "color_footer_btm_text": "#ffffff",
+    "color_facebook_bg": "#1878b9",
+    "color_twitter_bg": "#da674a",
+    "color_pinterest_bg": "#6aaf65",
+    "button_shape": "shape square",
+    "product_tag_shape": "shape circle",
+    "logo_font": "poppins_n7",
+    "header_font": "poppins_n4",
+    "buttons_font": "poppins_n7",
+    "base_font": "sans-serif",
+    "type_logo_text_transform": "none",
+    "type_buttons_text_transform": "uppercase",
+    "type_base_text_transform": "none",
+    "header_show_background": "except-homepage",
+    "header_expanded": false,
+    "section_headers_text_decoration": "none",
+    "content_layout": "centered",
+    "product_grid_titles_enable": true,
+    "product_grid_titles_underline_enable": false,
+    "product_grid_text_alignment": "center",
+    "product_grid_prices_enable": true,
+    "product_grid_vendor_enable": false,
+    "product_sale_tag_option": "text",
+    "product_new_tag_enabled": true,
+    "product_grid_preview_enable": true,
+    "product_grid_interactive_enable": false,
+    "product_grid_secondary_enable": true,
+    "product_grid_mouseover_opacity": 80,
+    "product_grid_mouseover_gradient_enable": false,
+    "cart_type": "page",
+    "additional_checkout_buttons_enable": false,
+    "cart_notes_enable": false,
+    "social_facebook_link": "https:\/\/www.facebook.com\/happycapshfx\/",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/instagram.com\/happycapshfx",
+    "favicon": "shopify:\/\/shop_images\/happycaps_logo_c44f89f2-8d33-4733-81ec-b155b54a86e2.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#f2f2f2",
+    "checkout_accent_color": "#67b50b",
+    "checkout_button_color": "#67b50b",
+    "color_share_text": "#ffffff",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_announcement": true,
+          "home_page_only": false,
+          "top_banner_text": "<b> $4 Canada wide shipping! Buy a 2nd Kit & SAVE $10 <\/b>",
+          "announcement_link": "shopify:\/\/products\/grow-your-own-mushroom-kit-oyster",
+          "color_announcement_text": "#ffffff",
+          "color_announcement_bg": "#82b5b0"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "c309360b-e3e3-4aa8-aeee-c89b08c991df": {
+            "type": "mega",
+            "settings": {
+              "name": "Shop",
+              "image-1": "shopify:\/\/shop_images\/Happy_Caps_-_Mega_Menu_1.png",
+              "url-1": "",
+              "text-1": ""
+            }
+          },
+          "5f8b4ba1-6bf1-4f54-9b34-f26a6887c74c": {
+            "type": "mega",
+            "settings": {
+              "name": "Instructions",
+              "image-1": "shopify:\/\/shop_images\/Banner_1.png",
+              "url-1": "",
+              "text-1": ""
+            }
+          },
+          "a1648c5d-867c-43b5-a3e3-ed2a14c35a37": {
+            "type": "mega",
+            "settings": {
+              "name": "About",
+              "image-1": "shopify:\/\/shop_images\/Happy_Caps_-_Product_Image.png",
+              "url-1": "",
+              "text-1": ""
+            }
+          }
+        },
+        "block_order": [
+          "c309360b-e3e3-4aa8-aeee-c89b08c991df",
+          "5f8b4ba1-6bf1-4f54-9b34-f26a6887c74c",
+          "a1648c5d-867c-43b5-a3e3-ed2a14c35a37"
+        ],
+        "settings": {
+          "logo_max_width": 200,
+          "main_nav_linklist": "main-menu-test-site",
+          "show_main_menu_on_mobile": false,
+          "menu_font_size": 18,
+          "menu_letter_spacing": 1,
+          "menu_text_transform": "none",
+          "menu_font_weight": "400",
+          "side_nav_linklist": "main-menu-test-site",
+          "enable_side_nav_text": false,
+          "show_social_icons": true,
+          "enable_transparent_header": false,
+          "transparent_header_text_color": "#da674a",
+          "enable_sticky_header": true,
+          "enable_search": true,
+          "enable_account": true,
+          "enable_cart": true,
+          "show_language_selector": true,
+          "show_country_selector": true
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "enable_popup": false,
+          "enable_test": false,
+          "delay": 5,
+          "frequency": 2,
+          "content_max_width": 650,
+          "title": "SAVE $15",
+          "content": "<p><strong>Welcome to Happy Caps Mushroom Farm!<\/strong><\/p><p><em>Sign up and save 10% off your first kit today<\/em><\/p>",
+          "newsletter_enable": true,
+          "button_enable": false,
+          "button_label": "LETS START GROWING",
+          "button_link": "",
+          "button_style": "accent",
+          "button_size": "normal"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "Mushroom Kits",
+              "menu": "footer"
+            }
+          },
+          "c5d81b6b-6cf6-4e5f-9cc7-ad78e0601310": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "Growing Instructions",
+              "menu": "footer-main-menu-test-2"
+            }
+          },
+          "7d5ea8a6-191d-4dae-ba0c-740e53006a24": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "Get In Contact",
+              "menu": "footer-menu-3"
+            }
+          },
+          "3c3e87d0-7cb8-47f4-ab33-b356d32681d8": {
+            "type": "social",
+            "settings": {
+              "align": "center"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "c5d81b6b-6cf6-4e5f-9cc7-ad78e0601310",
+          "7d5ea8a6-191d-4dae-ba0c-740e53006a24",
+          "3c3e87d0-7cb8-47f4-ab33-b356d32681d8"
+        ],
+        "settings": {
+          "footer_show_payments": false,
+          "show_language_selector": true,
+          "show_country_selector": true
+        }
+      },
+      "account-register": {
+        "type": "account-register",
+        "settings": {
+        }
+      },
+      "account-login": {
+        "type": "account-login",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Generic": {
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "show_announcement": false,
+            "home_page_only": true,
+            "color_announcement_text": "#FFFFFF",
+            "color_announcement_bg": "#FA766A"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_transparent_header": false,
+            "transparent_header_text_color": "#121212"
+          }
+        }
+      },
+      "color_body_bg": "#ffffff",
+      "color_section_bg": "#f3f0ee",
+      "color_body_text": "#121212",
+      "color_accent": "#FA766A",
+      "color_sold_out": "#353333",
+      "color_logo_text": "#121212",
+      "color_footer_top_bg": "#1C1E20",
+      "color_footer_top_accent": "#ffffff",
+      "color_footer_top_text": "#ffffff",
+      "color_footer_btm_bg": "#000000",
+      "color_footer_btm_text": "#ffffff",
+      "color_share_text": "#ffffff",
+      "color_facebook_bg": "#d8d8d8",
+      "color_twitter_bg": "#d8d8d8",
+      "color_pinterest_bg": "#d8d8d8",
+      "logo_font": "poppins_n7",
+      "header_font": "poppins_n5",
+      "buttons_font": "poppins_n4",
+      "base_font": "work_sans_n4",
+      "section_headers_text_decoration": "none",
+      "button_shape": "shape circle",
+      "product_tag_shape": "shape circle",
+      "header_show_background": "only-homepage",
+      "content_layout": "centered",
+      "product_grid_titles_enable": true,
+      "product_grid_prices_enable": true,
+      "product_grid_vendor_enable": false,
+      "product_grid_titles_underline_enable": true,
+      "product_grid_text_alignment": "center",
+      "product_grid_preview_enable": false,
+      "product_grid_interactive_enable": false,
+      "product_grid_mouseover_opacity": "80",
+      "product_grid_secondary_enable": true,
+      "product_grid_mouseover_gradient_enable": false,
+      "product_sale_tag_option": "discount",
+      "cart_type": "drawer",
+      "cart_notes_enable": false
+    },
+    "Fluor": {
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "show_announcement": false,
+            "home_page_only": true,
+            "color_announcement_text": "#FFFFFF",
+            "color_announcement_bg": "#D18A51"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_transparent_header": false,
+            "transparent_header_text_color": "#302d33",
+            "menu_font_size": 16,
+            "menu_letter_spacing": 1,
+            "menu_font_weight": "400",
+            "enable_sticky_header": true
+          }
+        }
+      },
+      "color_body_bg": "#ffffff",
+      "color_section_bg": "#f3f0ee",
+      "color_body_text": "#302d33",
+      "color_accent": "#D18A51",
+      "color_sold_out": "#302d33",
+      "color_logo_text": "#121212",
+      "color_footer_top_bg": "#1f1f1f",
+      "color_footer_top_accent": "#e79859",
+      "color_footer_top_text": "#a6a6a6",
+      "color_footer_btm_bg": "#141414",
+      "color_footer_btm_text": "#c89770",
+      "color_share_text": "#ffffff",
+      "color_facebook_bg": "#bebebe",
+      "color_twitter_bg": "#bebebe",
+      "color_pinterest_bg": "#bebebe",
+      "logo_font": "basic_commercial_n7",
+      "header_font": "basic_commercial_n4",
+      "buttons_font": "sans-serif",
+      "base_font": "work_sans_n4",
+      "button_shape": "shape circle",
+      "product_tag_shape": "shape circle",
+      "header_show_background": "exclude-all",
+      "content_layout": "centered",
+      "product_grid_titles_enable": true,
+      "product_grid_prices_enable": true,
+      "product_grid_vendor_enable": false,
+      "product_grid_titles_underline_enable": false,
+      "product_grid_preview_enable": false,
+      "product_grid_interactive_enable": false,
+      "product_grid_mouseover_opacity": "80",
+      "product_grid_secondary_enable": false,
+      "product_grid_mouseover_gradient_enable": false,
+      "product_grid_text_alignment": "one-line",
+      "product_sale_tag_option": "text",
+      "cart_type": "drawer",
+      "cart_notes_enable": false
+    },
+    "Pastel": {
+      "color_body_bg": "#ffffff",
+      "color_section_bg": "#faf0ec",
+      "color_body_text": "#403d3d",
+      "color_accent": "#afa16f",
+      "color_sold_out": "#403d3d",
+      "color_logo_text": "#121212",
+      "color_footer_top_bg": "#403d3d",
+      "color_footer_top_accent": "#e4d290",
+      "color_footer_top_text": "#cdcccc",
+      "color_footer_btm_bg": "#2c2a2a",
+      "color_footer_btm_text": "#a9a8a8",
+      "color_share_text": "#ffffff",
+      "color_facebook_bg": "#403D3D",
+      "color_twitter_bg": "#403D3D",
+      "color_pinterest_bg": "#403D3D",
+      "logo_font": "cardo_n7",
+      "header_font": "cardo_n4",
+      "buttons_font": "cardo_n4",
+      "base_font": "inconsolata_n4",
+      "button_shape": "shape square",
+      "product_tag_shape": "shape hexagon",
+      "header_show_background": "exclude-all",
+      "content_layout": "centered",
+      "product_grid_titles_enable": false,
+      "product_grid_prices_enable": true,
+      "product_grid_vendor_enable": false,
+      "product_grid_titles_underline_enable": true,
+      "product_grid_text_alignment": "center",
+      "product_grid_preview_enable": false,
+      "product_grid_interactive_enable": false,
+      "product_grid_mouseover_opacity": "70",
+      "product_grid_secondary_enable": false,
+      "product_grid_mouseover_gradient_enable": false,
+      "product_sale_tag_option": "text",
+      "cart_type": "drawer",
+      "cart_notes_enable": false,
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "show_announcement": true,
+            "home_page_only": true,
+            "color_announcement_text": "#FFFFFF",
+            "color_announcement_bg": "#afa16f"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_max_width": 160,
+            "main_nav_linklist": "main-menu",
+            "menu_font_size": 17,
+            "menu_letter_spacing": 1,
+            "menu_font_weight": "700"
+          }
+        }
+      }
+    }
+  }
+}

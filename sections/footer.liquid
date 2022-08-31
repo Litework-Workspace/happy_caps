@@ -1,0 +1,258 @@
+{% assign menu = linklists[section.settings.footer_linklist] %}
+<div class="footer {% render 'content-classes', scope: section %}" data-section-id="{{ section.id }}" data-section-type="footer" role="contentinfo">
+  {% if section.blocks.size > 0 %}
+    <div class="top blocks-{{ section.blocks.size }}">
+      {% for block in section.blocks %}
+        {% case block.type %}
+
+          {% when 'menu' %}
+            {% assign menu = linklists[block.settings.menu] %}
+            <div class="col menu" {{ block.shopify_attributes }}>
+              <h1>{{ block.settings.menu_title }}</h1>
+              <ul>
+                {% for link in menu.links %}
+                  <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+
+          {% when 'text' %}
+            <div class="col contact" {{ block.shopify_attributes }}>
+              <h1>{{ block.settings.title }}</h1>
+              <div class="rte">{{ block.settings.richtext }}</div>
+            </div>
+
+         {% when 'newsletter' %}
+            <div class="col" {{ block.shopify_attributes }}>
+              <h1>{{ 'layout.footer.newsletter' | t }}</h1>
+              {% form 'customer', id: "newsletterFooter" %}
+                {% if form.posted_successfully? %}
+                  <p class="success">{{ 'layout.footer.newsletter_success' | t }}</p>
+                {% else %}
+                  <div class="table">
+                    <input type="hidden" name="contact[tags]" value="newsletter">
+                    <input class="text {% if form.errors contains 'email' %} error{% endif %}" type="email" name="contact[email]" placeholder="{{ 'layout.footer.newsletter_placeholder' | t }}" autocorrect="off" autocapitalize="off"  aria-label="{{ 'layout.footer.newsletter_placeholder' | t }}">
+                    <span class="input-group-btn">
+                      <input type="submit" class="btn" value="{{ 'layout.footer.newsletter_submit' | t }}">
+                    </span>
+                  </div>
+                  {% if form.errors %}
+                    {% for field in form.errors %}
+                      <div class="field-error">{{ form.errors.messages[field] }}</div>
+                    {% endfor %}
+                  {% endif %}
+                {% endif %}
+              {% endform %}
+            </div>
+
+          {% when 'social' %}
+            <div class="col {{ block.settings.align }}" {{ block.shopify_attributes }}>
+              {% render 'connect', title: 'layout.footer.social' %}
+            </div>
+
+        {% endcase %}
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% liquid
+    assign language_selector = false
+    assign country_selector = false
+    if section.settings.show_country_selector and localization.available_countries.size > 1
+      assign country_selector = true
+    endif
+    if section.settings.show_language_selector and localization.available_languages.size > 1
+      assign language_selector = true
+    endif
+    if country_selector or language_selector
+      assign show_selectors = true
+    endif
+  %}
+  <div class="bottom {% if show_selectors %}with-selectors{% endif %}">
+    <div class="left">
+      {% if section.settings.footer_show_payments %}
+        <div class="cards">
+          {% for type in shop.enabled_payment_types %}
+            {{ type | payment_type_svg_tag: class:'payment-icon' }}
+          {% endfor %}
+        </div>
+      {% endif %}
+      <div class="text">
+        {% assign year = 'now' | date: '%Y' %}
+        {% capture shop_name %}{{ shop.name | link_to: '/' }}{% endcapture %}
+        {{ 'layout.footer.copyright_html' | t: year: year, shop_name: shop_name }}
+        {%- if show_selectors -%}
+          <span class="powered">
+            
+            {% comment %} removed {{powered_by_link }} {%endcomment %}
+            
+            
+          </span>
+        {%- endif %}
+      </div>
+    </div>
+    <div class="right">
+      {% render 'language-and-country-selectors', extended: true %}
+      {%- unless show_selectors -%}
+        <div class="text">
+          
+           {% comment %} removed {{powered_by_link }} {%endcomment %}
+
+        </div>
+      {%- endunless -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.footer.name",
+  "class": "section-footer",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "footer_show_payments",
+      "label": "t:sections.footer.settings.footer_show_payments.label",
+      "info": "t:sections.footer.settings.footer_show_payments.info",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "t:sections.footer.settings.header__1.content",
+      "info": "t:sections.footer.settings.header__1.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_language_selector",
+      "label": "t:sections.footer.settings.show_language_selector.label",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "t:sections.footer.settings.header__2.content",
+      "info": "t:sections.footer.settings.header__2.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_country_selector",
+      "label": "t:sections.footer.settings.show_country_selector.label",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "menu",
+      "name": "t:sections.footer.blocks.menu.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "menu_title",
+          "label": "t:sections.footer.blocks.menu.settings.menu_title.label",
+          "default": {
+            "en": "Quick links",
+            "es": "Navegación"
+          }
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "t:sections.footer.blocks.menu.settings.menu.label",
+          "info": "t:sections.footer.blocks.menu.settings.menu.info"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.footer.blocks.text.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.footer.blocks.text.settings.title.label",
+          "default": {
+            "en": "About us",
+            "es": "Acerca de nosotros"
+          }
+        },
+        {
+          "type": "richtext",
+          "id": "richtext",
+          "label": "t:sections.footer.blocks.text.settings.richtext.label",
+          "default": {
+            "en": "<p>Share store details, promotions, or brand content with your customers.</p>",
+            "es": "<p>Comparte detalles de la tienda, promociones o contenido de marca con tus clientes.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "type": "social",
+      "name": "t:sections.footer.blocks.social.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "t:sections.footer.blocks.social.settings.paragraph.content"
+        },
+        {
+          "type": "radio",
+          "id": "align",
+          "label": "t:sections.footer.blocks.social.settings.align.label",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.footer.blocks.social.settings.align.options__1"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.footer.blocks.social.settings.align.options__2"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.footer.blocks.social.settings.align.options__3"
+            }
+          ],
+          "default": "left"
+        }
+      ]
+    },
+    {
+      "type": "newsletter",
+      "name": "t:sections.footer.blocks.newsletter.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "t:sections.footer.blocks.newsletter.settings.paragraph.content"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "menu",
+        "settings": {
+          "menu": "footer"
+        }
+      },
+      {
+        "type": "text",
+        "settings": {
+          "title": "Contact",
+          "richtext": "<p>1360 Lombard Street<br>San Francisco, CA 94109<br>support@company.com</p>"
+        }
+      },
+      {
+        "type": "text"
+      },
+      {
+        "type": "social",
+        "settings": {
+          "align": "right"
+        }
+      }
+    ]
+  }
+}
+{% endschema %}

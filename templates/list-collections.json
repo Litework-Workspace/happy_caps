@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "1652926191e441813f": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AMAZON_A_1_-13.jpg",
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "collection_titles": "visible-on-mouse-over",
+        "collection_underline": true,
+        "collection_show_arrow": false,
+        "collection_alignment": "center",
+        "collection_height": "medium",
+        "collection_image_size": "contain",
+        "collection_image_opacity": 100,
+        "collection_text_color": "#ffffff",
+        "heading": "",
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": true,
+        "collapsed": false
+      }
+    },
+    "16529262735759a6c7": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_22.png",
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    }
+  },
+  "order": [
+    "1652926191e441813f",
+    "main",
+    "16529262735759a6c7"
+  ]
+}

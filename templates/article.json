@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "facebook_sharing_articles": true,
+        "twitter_sharing_articles": true,
+        "pinterest_sharing_articles": true,
+        "show_heading": true,
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": false,
+        "collapsed": true
+      }
+    },
+    "1652926467c76abf26": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_22.png",
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": true,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652926467c76abf26"
+  ]
+}

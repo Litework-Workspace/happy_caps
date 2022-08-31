@@ -1,0 +1,319 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "max_width": 500
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "shop",
+            "max_width": 500
+          }
+        },
+        "button": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "link": "shopify:\/\/collections\/all",
+            "style": "border",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4a8637b271564ac4a1e87208bb93c338.mp4",
+        "alignment": "h-left v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "image_mobile": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_6.jpg",
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": true,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "increase_space_before_block": false
+          }
+        },
+        "02dc4423-bda5-475a-a9bf-cd1a7a277070": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2><strong><span style=\"color: #;\">Grow Your Own Mushrooms Today!<\/span><\/strong><\/h2>",
+            "increase_space_before_block": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "increase_space_before_block": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_pickup_availability": true,
+            "increase_space_before_block": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "increase_space_before_block": false
+          }
+        },
+        "collapsible_tab_1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.health_benefits_title.value }}",
+            "content": "<p>{{ product.metafields.my_fields.tab_health_benefit_description | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "heart",
+            "increase_space_before_block": true
+          }
+        },
+        "collapsible_tab_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.growing_instructions_title.value }}",
+            "content": "<p>{{ product.metafields.my_fields.growing_instructions | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "leaf",
+            "increase_space_before_block": true
+          }
+        },
+        "9126efc8-4f1d-494f-b519-19f8da803a2b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Tracking",
+            "content": "<p>All our products are pre-pacakged and ready to be sent out the door today!<\/p><p>Shipping time are standard rate at<strong> 4-5 business days<\/strong> after date of purchase.<\/p>",
+            "page": "",
+            "icon": "truck",
+            "increase_space_before_block": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "02dc4423-bda5-475a-a9bf-cd1a7a277070",
+        "price",
+        "buy_buttons",
+        "description",
+        "collapsible_tab_1",
+        "collapsible_tab_2",
+        "9126efc8-4f1d-494f-b519-19f8da803a2b"
+      ],
+      "settings": {
+        "thumbnails_position": "bottom",
+        "enable_sticky_info": true,
+        "zoom_enable": true,
+        "enable_video_looping": false,
+        "first_variant_media_enabled": false,
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": false,
+        "collapsed": true
+      }
+    },
+    "165221614365009276": {
+      "type": "custom-content",
+      "blocks": {
+        "16522161439cfeb01e-0": {
+          "type": "text",
+          "settings": {
+            "title": "Grown With Care In Canada",
+            "text": "<p>Meet <a href=\"\/pages\/about\" title=\"About\">Kobo<\/a> our certified mushroom expert and Fungi at heart! He personally sees that every kit is up to qaulity control standards before being sent out the door to<a href=\"\/pages\/about\" title=\"About\"> start your growing journey!<\/a><\/p><p>Checkout more of our top rated reviews from verified customers on Amazon at <a href=\"https:\/\/www.amazon.ca\/s?k=Happy+Caps+Mushroom+Farm&ref=bl_dp_s_web_0\" target=\"_blank\" title=\"Happy Caps Mushroom Farm\">Happy Caps Mushroom Farm<\/a> proudly developed and sold from Halifax, Nova Scotia, Canada.<\/p>",
+            "width": "66%",
+            "alignment": "center",
+            "align_text": "left"
+          }
+        },
+        "16522161439cfeb01e-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Caps_-_Product_Image.png",
+            "width": "33%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16522161439cfeb01e-0",
+        "16522161439cfeb01e-1"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "1652244760460e579c": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-07545a74-86c4-4696-b032-e30eafd6fcbe\"><\/div>",
+        "show_as_section": true,
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "1652237411826786b7": {
+      "type": "faq",
+      "blocks": {
+        "1652237411090a091f-0": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.faq_question_1.value }}",
+            "content": "<p>{{ product.metafields.my_fields.faq_answer_1_ | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "109193ff-a0a3-454f-98b1-942c8bceff67": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "How do I start growing the mushrooms?",
+            "content": "<p>Open the paper bag and remove the plastic bag containing your mushroom block.<\/p><p> Stand the block upright, filter side up. Find a white spot under the plastic where the mushroom is trying to grow.<\/p><p> Slits near the top (filter) of the block work well. Cut two 1\" slits to make a small 'x' on the block. Make 2-3 of these 'x' spots at least a few inches apart. Just cut through the plastic bag and keep the block inside of the bag.  <\/p><p><em>*Start with one 'x' near the top of the block. In a few days you may see a new white bump form somewhere under the plastic. Make a second 'x' cut there.*Lion's mane mycelium is very light and wispy. If you are expecting oyster mycelium you may think the block is not fully colonized, but it is. <\/em><\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "e9f157ad-e2e6-4576-a8c1-a82498f0a645": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Where should I place the kit while growing?",
+            "content": "<p>Find a good spot for your block to live for the next few weeks. An ideal spot would be on a counter top or shelf in the most humid part of your house. <\/p><p>Keep out of direct sunlight and away from drafts or heaters. The kit includes a separate plastic bag to be used as a humidity tent. <\/p><p>Roll the opening of this bag up a few times like a pant leg and stand it over the block like a tent. <\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "1652237411090a091f-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How many mushrooms does each kit make?",
+            "content": "<p>After 7-10 days you should start to see little mushroom pins starting to poke out of the slit in your bag.<\/p><p> The actual mushrooms will take about one week to mature. While the mushrooms are actively growing mist multiple times a day to make sure the mushrooms do not dry out. <\/p><p>Harvest when the mushroom starts to develop hanging icicle like structures. <\/p><p><em>*To develop nice hanging teeth the humidity must be controlled pretty well. Try not to soak the mushroom itself with water too much when misting. Try to maintain around 85% humidity while growing. A light condensation on the inside of the grow tent is perfect.<\/em><\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "1652237411090a091f-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How should I store the kit if im not going to open it?",
+            "content": "<p>You can expect your Mushroom Kit to arrive withing 3\/5 days of placing you order with us! We ship are kits out weekly after they pass all of our quality control standards! <\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "74eff6b8-8244-495c-a54e-e82879e7bdfb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I keep growing mushrooms after the first harvest?",
+            "content": "<p>After you have harvested the mushrooms simply continue misting daily and within 3 weeks you should get an additional flush of mushrooms. <\/p><p>If at any point the block seems really dry you can soak it in a large pot of cold tap water overnight to rehydrate it. <\/p><p>You can get 2 - 4 flushes of mushrooms from this block.<\/p><p> <em>*You probably will not need to soak between the first and second flush of mushrooms. After the second flush try soaking for no longer than 8-hours.<\/em><\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "1652237411090a091f-0",
+        "109193ff-a0a3-454f-98b1-942c8bceff67",
+        "e9f157ad-e2e6-4576-a8c1-a82498f0a645",
+        "1652237411090a091f-1",
+        "1652237411090a091f-2",
+        "74eff6b8-8244-495c-a54e-e82879e7bdfb"
+      ],
+      "settings": {
+        "title": "{{ product.metafields.my_fields.faq_mushroom_kit_title.value }}",
+        "subtitle": "",
+        "show_background": false,
+        "expanded": true,
+        "content_max_width": 950,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "",
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "16529249776dd4027d": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_22.png",
+        "video": "",
+        "alignment": "h-center v-top",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": true,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "165221614365009276",
+    "1652244760460e579c",
+    "1652237411826786b7",
+    "product-recommendations",
+    "16529249776dd4027d"
+  ]
+}

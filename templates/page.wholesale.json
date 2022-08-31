@@ -1,0 +1,144 @@
+{
+  "sections": {
+    "main": {
+      "type": "contact",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1652986246295c8597": {
+      "type": "hero",
+      "blocks": {
+        "165298624645d194a9-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero heading",
+            "max_width": 500
+          }
+        },
+        "165298624645d194a9-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero subheading",
+            "max_width": 500
+          }
+        },
+        "165298624645d194a9-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "Shop now",
+            "link": "shopify:\/\/collections\/all",
+            "style": "border",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "165298624645d194a9-0",
+        "165298624645d194a9-1",
+        "165298624645d194a9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Wholesalers_Wanted_b4a52663-d855-4780-9cb7-4813c636581d.jpg",
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "image_mobile": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_51daba07-51b2-4a1a-8dc3-55937f27cb2d.jpg",
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "1652986248e6d943ed": {
+      "type": "custom-content",
+      "blocks": {
+        "1652986248d3a86073-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2021-12-15-15-58-03_96b37bcc-9156-4860-b6bf-1f1f5b8ac0bc.jpg",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "1652986248d3a86073-0": {
+          "type": "text",
+          "settings": {
+            "title": "Interested In Wholesale?",
+            "text": "<p>We are thrilled to partner with current Brick & Mortar shops to display our products and enter into wholesale opporunties with us! <\/p><p>If you think your business would be a great fit, you can contact us directly at <strong>wholesale@happycaps.ca <\/strong><\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1652986248d3a86073-1",
+        "1652986248d3a86073-0"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "1652986371b39ae7e6": {
+      "type": "custom-content",
+      "disabled": true,
+      "blocks": {
+        "1652986371dffb9571-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Resized_3_BOX_MOCKUP.jpg",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "1652986371dffb9571-0": {
+          "type": "text",
+          "settings": {
+            "title": "Own A Brick & Mortar Location?",
+            "text": "<p>We require reatiler of Happy Caps to be established for a minimum of __ years and own or lease a retail brick & mortar storefront. The reason for these requirments is to make sure we partner with professional, pre-established business that have a clientel interested in growing groumet mushroom in their home!<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1652986371dffb9571-1",
+        "1652986371dffb9571-0"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652986246295c8597",
+    "1652986248e6d943ed",
+    "1652986371b39ae7e6"
+  ]
+}

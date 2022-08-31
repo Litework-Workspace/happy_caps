@@ -1,0 +1,146 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_heading": false,
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": false,
+        "collapsed": true
+      }
+    },
+    "1652640415776ce49a": {
+      "type": "custom-content",
+      "blocks": {
+        "1652640415dd1fa7b4-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Caps_-_Hero_Banner.png",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "1652640415dd1fa7b4-0": {
+          "type": "text",
+          "settings": {
+            "title": "Meet The Team",
+            "text": "<p>Happy Caps is a local urban mushroom farm in Halifax, Nova Scotia, Canada. We love to grow gourmet mushrooms and we want to give you the opportunity to enjoy this fun hobby. We sell the highest quality mushroom grow kits for you to try at home.<\/p><p><\/p><p>Happy Caps was started in 2018 by Andrew Kobayashi. The inspiration for starting Happy Caps came from a love of gardening and urban farming. Before learning about gourmet mushrooms there were lots of urban farming type experiments with lettuce, microgreens, tomatoes and almost anything you could think of. The problem was always space and trying to figure out how to produce the most value in the smallest footprint. Through all of the experimentation and countless hours of Youtube videos, growing gourmet mushrooms surfaced. While the techniques of being sterile and clean were much more delicate than growing plants, the value per square foot you could get from mushrooms was more than anything else. <\/p><p>The process of growing mushrooms was also very fascinating. We can locally source sawdust and wheat bran, which would normally be waste products from other industries, and turn it into food. They do not require any outside energy to grow such as the sun, or powerful artificial lights making this a more sustainable solution with problems like climate change on the rise. With the right conditions and some patience they seem to just appear out of nowhere, right before your eyes. We knew we had to share the joy of growing mushrooms with the world and that is when we started producing the ‘grow your own mushroom kit’. In 2019, Andrew Kobayashi teamed up with lifelong childhood friend Andrew Hatfield to join the Happy Caps team and grow the business. Our goal is to be the best 'grow your mushroom kit' company on the planet and share the joy of growing mushrooms with as many people as possible.<\/p><p>We are fortunate to be receiving support from our parent company Red Light Holland which is a publicly traded psychedelic company selling magic truffles in the legal recreational market of the Netherlands. Our values align greatly as we share the same love for all types of mushrooms. At Happy Caps we're creating an experience for people to feel the joy of growing their own mushrooms. <\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1652640415dd1fa7b4-1",
+        "1652640415dd1fa7b4-0"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": false,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Happy_Caps_-_Product_Image_7.png",
+        "subtitle": "Founder",
+        "title": "Andrew \"Kobo\" Kobayashi",
+        "text": "",
+        "text_position": "right",
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": false,
+        "collapsed": true,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Happy_Caps_-_Product_Image_6.png",
+        "subtitle": "Founder",
+        "title": "Andrew \"Hatty\" Hatfield",
+        "text": "",
+        "text_position": "left",
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": false,
+        "collapsed": true,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "heading": "Subscribe to our newsletter",
+        "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": false,
+        "content_max_width": 700,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "16529357305b9739f8": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "blog": "",
+        "layout": "grid",
+        "post_limit": 2,
+        "featured_images_fixed_height_enabled": false,
+        "featured_images_fixed_height": 360,
+        "show_heading": true,
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": false,
+        "content_max_width": 1200,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "1652935633bf01228c": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_22.png",
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652640415776ce49a",
+    "image-with-text-1",
+    "image-with-text-2",
+    "newsletter",
+    "16529357305b9739f8",
+    "1652935633bf01228c"
+  ]
+}

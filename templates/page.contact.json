@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "1652986246295c8597": {
+      "type": "hero",
+      "blocks": {
+        "165298624645d194a9-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero heading",
+            "max_width": 500
+          }
+        },
+        "165298624645d194a9-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero subheading",
+            "max_width": 500
+          }
+        },
+        "165298624645d194a9-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "Shop now",
+            "link": "shopify:\/\/collections\/all",
+            "style": "border",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "165298624645d194a9-0",
+        "165298624645d194a9-1",
+        "165298624645d194a9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Wholesalers_Wanted_1000_x_300_px_1.png",
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": false
+      }
+    },
+    "main": {
+      "type": "contact",
+      "settings": {
+      }
+    },
+    "1652986248e6d943ed": {
+      "type": "custom-content",
+      "disabled": true,
+      "blocks": {
+        "1652986248d3a86073-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2021-12-15-15-58-03_96b37bcc-9156-4860-b6bf-1f1f5b8ac0bc.jpg",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "1652986248d3a86073-0": {
+          "type": "text",
+          "settings": {
+            "title": "Interested In Wholesale?",
+            "text": "<p>We are thrilled to partner with current Brick & Mortar shops to display our products and enter into wholesale opporunties with us! If you think your business would be a great fit, you can contact us directly at Hatty@happycaps.ca <\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1652986248d3a86073-1",
+        "1652986248d3a86073-0"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    }
+  },
+  "order": [
+    "1652986246295c8597",
+    "main",
+    "1652986248e6d943ed"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_background": false,
+        "expanded": true,
+        "collapsed": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

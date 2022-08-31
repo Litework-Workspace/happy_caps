@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "1652927026e9100910": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Wholesalers_Wanted_1000_x_300_px_2.png",
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "image_mobile": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_1200_x_1400_px_1200_x_1200_px.jpg",
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "cart": {
+      "type": "cart",
+      "settings": {
+        "show_background": true,
+        "expanded": false,
+        "collapsed": true
+      }
+    },
+    "16529268760ce9749d": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_22.png",
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": true,
+        "show_on_desktop": true,
+        "show_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "1652927026e9100910",
+    "cart",
+    "16529268760ce9749d"
+  ]
+}

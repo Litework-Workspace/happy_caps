@@ -1,0 +1,279 @@
+<div class="content text-columns-with-images {{ section.settings.align }} {% render 'content-classes', scope: section %}">
+  <div class="inner" style="max-width: {{ section.settings.content_max_width }}px;">
+    {% if section.settings.heading != blank or section.settings.subheading != blank %}
+      <div class="inner with-layout-options centered" style="max-width: 900px;">
+        <div class="rte">
+          {% unless section.settings.heading == blank %}
+            <h1>{{ section.settings.heading | escape }}</h1>
+          {% endunless %}
+          {% unless section.settings.subheading == blank %}
+            {{ section.settings.subheading }}
+          {% endunless %}
+        </div>
+      </div>
+    {% endif %}
+    {% if section.blocks.size > 0 %}
+      <div class="row cols layout-{{ section.settings.columns }}">
+        {% assign index = 1 %}
+        {% for block in section.blocks limit: section.blocks.size %}
+          <div class="col col-{{ index }}" {{ block.shopify_attributes }}>
+            {% if block.settings.link %}<a href="{{ block.settings.link }}">{% endif %}
+            {% if block.settings.show_image %}
+              {% if block.settings.image_type == 'custom' %}
+                {% if block.settings.image != blank %}
+                    <picture>
+                      {% assign dimensions = "180,370,590,740,900,1080,1296,1512,1728,2048,4472" | split: ","%}
+                      <source srcset=
+                        "{% for dimension in dimensions %}
+                          {% assign img_url = dimension | append: 'x' %}
+                          {% if squared %}
+                            {% assign img_url = img_url | append: dimension %}
+                          {% endif %}
+                          {{ block.settings.image | img_url: img_url }} {{ dimension }}w,
+                        {% endfor %}"
+                        sizes="100vw"
+                      >
+                      <img src="{{ block.settings.image | img_url: '2048x' }}">
+                    </picture>
+                {% else %}
+                  <div class="number">{{ index }}</div>
+                {% endif %}
+              {% else %}
+                {% if block.settings.image_type == 'icon_number' %}
+                  <div class="number">{{ index }}</div>
+                {% else %}
+                  <div class="icon"><i class="fc fc-{{ block.settings.image_type | replace: "_", "-" }}"></i></div>
+                {% endif %}
+              {% endif %}
+            {% endif %}
+            {% if block.settings.title != blank %}
+              <h2>{{ block.settings.title }}</h2>
+            {% endif %}
+            {% if block.settings.text != blank %}
+              <div class="rte">
+                {{ block.settings.text }}
+              </div>
+            {% endif %}
+          {% if block.settings.link %}</a>{% endif %}
+          </div>
+          {% assign index = index | plus: 1 %}
+        {% endfor %}
+      </div>
+    {% else %}
+      {% render 'no-blocks' %}
+    {% endif %}
+    {% unless section.settings.button_label == blank or section.settings.button_link == blank %}
+      <a href="{{ section.settings.button_link }}" class="btn action small">{{ section.settings.button_label | escape }}</a>
+    {% endunless %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.text-columns-with-images.name",
+  "max_blocks": 20,
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:sections.text-columns-with-images.settings.heading.label",
+      "default": {
+        "en": "Text columns with images",
+        "es": "Columnas de texto con imágenes"
+      }
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "t:sections.text-columns-with-images.settings.subheading.label",
+      "default": {
+        "en": "<p>Use this section to share store features, testimonials, endorsements, FAQs, etc.</p>",
+        "es": "<p>Usa esta sección para compartir servicios, referencias, preguntas frecuentes, etc.</p>"
+      }
+    },
+    {
+      "type": "range",
+      "id": "columns",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "label": "t:sections.text-columns-with-images.settings.columns.label",
+      "default": 3
+    },
+    {
+      "type": "select",
+      "id": "align",
+      "label": "t:sections.text-columns-with-images.settings.align.label",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.text-columns-with-images.settings.align.options__1"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.text-columns-with-images.settings.align.options__2"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.text-columns-with-images.settings.align.options__3"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "t:sections.settings.header.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_background",
+      "label": "t:sections.settings.show_background.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "expanded",
+      "label": "t:sections.settings.expanded.label",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "label": "t:sections.settings.content_max_width.label",
+      "default": 850,
+      "min": 400,
+      "max": 2000,
+      "step": 50,
+      "unit": "px"
+    },
+    {
+      "type": "checkbox",
+      "id": "collapsed",
+      "label": "t:sections.settings.collapsed.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_on_desktop",
+      "label": "t:sections.settings.show_on_desktop.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_on_mobile",
+      "label": "t:sections.settings.show_on_mobile.label",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_column",
+      "name": "t:sections.text-columns-with-images.blocks.text_column.name",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_image",
+          "label": "t:sections.text-columns-with-images.blocks.text_column.settings.show_image.label",
+          "default": true
+        },
+        {
+          "type": "select",
+          "id": "image_type",
+          "label": "t:sections.text-columns-with-images.blocks.text_column.settings.image_type.label",
+          "default": "custom",
+          "options": [
+            {
+              "value": "custom",
+              "label": "t:sections.text-columns-with-images.blocks.text_column.settings.image_type.options__1"
+            },
+            {
+              "value": "icon_eco",
+              "label": "t:sections.text-columns-with-images.blocks.text_column.settings.image_type.options__2"
+            },
+            {
+              "value": "icon_international",
+              "label": "t:sections.text-columns-with-images.blocks.text_column.settings.image_type.options__3"
+            },
+            {
+              "value": "icon_local",
+              "label": "t:sections.text-columns-with-images.blocks.text_column.settings.image_type.options__4"
+            },
+            {
+              "value": "icon_recycled",
+              "label": "t:sections.text-columns-with-images.blocks.text_column.settings.image_type.options__5"
+            },
+            {
+              "value": "icon_returns",
+              "label": "t:sections.text-columns-with-images.blocks.text_column.settings.image_type.options__6"
+            },
+            {
+              "value": "icon_sale",
+              "label": "t:sections.text-columns-with-images.blocks.text_column.settings.image_type.options__7"
+            },
+            {
+              "value": "icon_security",
+              "label": "t:sections.text-columns-with-images.blocks.text_column.settings.image_type.options__8"
+            },
+            {
+              "value": "icon_shipping",
+              "label": "t:sections.text-columns-with-images.blocks.text_column.settings.image_type.options__9"
+            },
+            {
+              "value": "icon_number",
+              "label": "t:sections.text-columns-with-images.blocks.text_column.settings.image_type.options__10"
+            }
+          ]
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.text-columns-with-images.blocks.text_column.settings.image.label"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.text-columns-with-images.blocks.text_column.settings.title.label",
+          "default": {
+            "en": "Add a title or tagline",
+            "es": "Añadir un título o eslogan"
+          }
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:sections.text-columns-with-images.blocks.text_column.settings.text.label",
+          "default": {
+            "en": "<p>Use this text to share store features, recent reviews or FAQs.</p>",
+            "es": "<p>Usa este texto para compartir detalles sobre la tienda, reseñas recientes o preguntas frecuentes.</p>"
+          }
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.text-columns-with-images.blocks.text_column.settings.link.label",
+          "info": {
+            "en": "Optional",
+            "es": "Opcional"
+          }
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.text-columns-with-images.presets.name",
+      "blocks": [
+        {
+          "type": "text_column"
+        },
+        {
+          "type": "text_column"
+        },
+        {
+          "type": "text_column"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
