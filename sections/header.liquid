@@ -1,4 +1,4 @@
-{% comment %} could possibly add logic for if iso code == US assign main_menu to linklists.us-menu(new menu made specifically for US to show us mushrooms) and same for side_menu {% endcomment %}
+{% comment %} Logic for changing main menu and side menu based on location selection/ iso code{% endcomment %}
 {% if localization.country.iso_code == 'CA' %}
   {%- liquid
     assign index = 0
