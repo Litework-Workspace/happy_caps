@@ -1,9 +1,19 @@
-{%- liquid
-  assign index = 0
-  assign index_mega = 0
-  assign main_menu = linklists[section.settings.main_nav_linklist]
-  assign side_menu = linklists[section.settings.side_nav_linklist]
--%}
+{% comment %} could possibly add logic for if iso code == US assign main_menu to linklists.us-menu(new menu made specifically for US to show us mushrooms) and same for side_menu {% endcomment %}
+{% if localization.country.iso_code == 'CA' %}
+  {%- liquid
+    assign index = 0
+    assign index_mega = 0
+    assign main_menu = linklists[section.settings.main_nav_linklist]
+    assign side_menu = linklists[section.settings.side_nav_linklist]
+  -%}
+{% elsif localization.country.iso_code == 'US' %}
+  {%- liquid
+    assign index = 0
+    assign index_mega = 0
+    assign main_menu = linklists.us-main-menu
+    assign side_menu = linklists.us-main-menu
+  -%}
+{% endif %}
 {% unless side_menu.empty? %}
   <div class="nav side-nav" role="navigation" aria-label="Primary">
     <a tabindex="-1" aria-label="{{ 'general.navigation.header_label' | t }}">
