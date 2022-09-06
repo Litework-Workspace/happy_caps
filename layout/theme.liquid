@@ -156,5 +156,11 @@
       </div>
       {% section 'footer' %}
     </div>
+    {% comment %} <ul>
+        {% for link in linklists.main-menu-test-site.links %}
+          <li>{{ link.title | link_to: link.url }} | {{ link.levels }}</li>
+        {% endfor %}
+      </ul>
+        {{ localization.country.iso_code }} {% endcomment %}
   </body>
 </html>
