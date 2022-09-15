@@ -44,7 +44,7 @@
           "type": "button",
           "settings": {
             "text": "Shop All Mushroom Kits",
-            "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-oyster",
+            "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits",
             "style": "accent",
             "size": "normal"
           }
