@@ -198,7 +198,54 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "5858961087409699889": {
+        "type": "shopify:\/\/apps\/geolocation-popup-orbe\/blocks\/app-embed-footer-selector\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
+        "disabled": true,
+        "settings": {
+          "block_alignement": "flex-end",
+          "style_corners": "square",
+          "block_background": "#fff",
+          "style_colors_background": "#fbfbfb",
+          "style_colors_border": "#000",
+          "style_colors_text": "#000",
+          "font_family_enabled": false,
+          "font_family_text": "helvetica_n3"
+        }
+      },
+      "15912215999290715800": {
+        "type": "shopify:\/\/apps\/geolocation-popup-orbe\/blocks\/app-embed-modal\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
+        "disabled": false,
+        "settings": {
+          "test_mode": true,
+          "enabled": false,
+          "option_currency": true,
+          "option_language": false,
+          "option_language_force_default": false,
+          "title": "<h1>Happy Caps<\/h1>",
+          "text": "<b>Shopping In Canada or the United States?<\/b>",
+          "helper_text": "<p>Choose your location from the options below, and get the best shipping rates!<\/p>",
+          "cta_text": "Shop now",
+          "background_image_desktop": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_6.jpg",
+          "background_image_mobile": "shopify:\/\/shop_images\/Untitled_design_22.png",
+          "modal_closeButton": true,
+          "modal_btn_align": "left",
+          "style_corners": "rounded",
+          "style_dropdown": "outlined",
+          "style_colors_background": "#fff",
+          "style_colors_closeButton": "#5C5F62",
+          "style_colors_cta_text": "#fff",
+          "style_colors_cta_button": "#da674a",
+          "style_colors_text": "#000",
+          "title_font_size": 21,
+          "text_font_size": 14,
+          "font_family_enabled": false,
+          "font_family_title": "helvetica_n4",
+          "font_family_text": "helvetica_n3"
+        }
+      }
+    }
   },
   "presets": {
     "Generic": {
@@ -372,7 +419,8 @@
             "main_nav_linklist": "main-menu",
             "menu_font_size": 17,
             "menu_letter_spacing": 1,
-            "menu_font_weight": "700"
+            "menu_font_weight": "700",
+            "transparent_header_text_color": "#FFFFFF"
           }
         }
       }
