@@ -219,7 +219,7 @@
         "disabled": false,
         "settings": {
           "test_mode": false,
-          "enabled": true,
+          "enabled": false,
           "option_currency": true,
           "option_language": false,
           "option_language_force_default": false,
