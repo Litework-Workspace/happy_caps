@@ -43,15 +43,25 @@
         "050a7609-d85b-4a66-b6cd-090e25062ac7": {
           "type": "button",
           "settings": {
-            "text": "Shop All Mushroom Kits",
+            "text": "Shop In Canada",
             "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits",
             "style": "accent",
             "size": "normal"
           }
+        },
+        "751a7f5b-4868-45c1-95d0-73fb98b66651": {
+          "type": "button",
+          "settings": {
+            "text": "Shop In U.S.A",
+            "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits-u-s-a",
+            "style": "accent",
+            "size": "small"
+          }
         }
       },
       "block_order": [
-        "050a7609-d85b-4a66-b6cd-090e25062ac7"
+        "050a7609-d85b-4a66-b6cd-090e25062ac7",
+        "751a7f5b-4868-45c1-95d0-73fb98b66651"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_4.jpg",
@@ -96,11 +106,18 @@
             "max_width": 500
           }
         },
+        "f19a14e7-20d7-42dc-af3f-97a091f5cc38": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><a href=\"\/collections\/grow-your-own-mushroom-kits-u-s-a\" title=\"Grow Your Own Mushroom Kits - U.S.A\">Shopping In The U.S? Click Here <\/a><\/p>",
+            "max_width": 500
+          }
+        },
         "button": {
           "type": "button",
           "settings": {
-            "text": "SHOP MUSHROOM KITS",
-            "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-oyster",
+            "text": "Shop MUSHROOM KITS",
+            "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits",
             "style": "accent",
             "size": "normal"
           }
@@ -110,6 +127,7 @@
         "heading",
         "2658dba5-dc8b-47e5-8531-7da17f16dfd9",
         "subheading",
+        "f19a14e7-20d7-42dc-af3f-97a091f5cc38",
         "button"
       ],
       "settings": {
@@ -863,6 +881,19 @@
         "show_on_desktop": false,
         "show_on_mobile": false
       }
+    },
+    "166327752517117ccf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "show_as_section": true,
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
     }
   },
   "order": [
@@ -889,6 +920,7 @@
     "1652970144590373a9",
     "16529701598ac20f01",
     "1652921525b7fe4aa4",
-    "16528393266f45fb58"
+    "16528393266f45fb58",
+    "166327752517117ccf"
   ]
 }
