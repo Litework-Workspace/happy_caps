@@ -21,6 +21,55 @@
         "show_on_mobile": true
       }
     },
+    "166377383827624ee2": {
+      "type": "rich-text",
+      "settings": {
+        "title": "$4 Shipping Across North America",
+        "richtext": "<p>Shopping in Canada? <a href=\"\/collections\/grow-your-own-mushroom-kits\" title=\"Grow Your Own Mushroom Kits - Canada\">Click Here<\/a>  or Shopping in the U.S.A? <a href=\"\/collections\/grow-your-own-mushroom-kits-u-s-a\" title=\"Grow Your Own Mushroom Kits - U.S.A\">Click Here<\/a><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "show_background": false,
+        "expanded": true,
+        "content_max_width": 900,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "166377378431fd10c0": {
+      "type": "call-to-action",
+      "disabled": true,
+      "blocks": {
+        "16637737846197e449-0": {
+          "type": "banner",
+          "settings": {
+            "title": "$4 Shipping In Canada",
+            "subtitle": "Shop",
+            "link": ""
+          }
+        },
+        "16637737846197e449-1": {
+          "type": "banner",
+          "settings": {
+            "title": "Call to action title",
+            "subtitle": "Call to action subtitle",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16637737846197e449-0",
+        "16637737846197e449-1"
+      ],
+      "settings": {
+        "show_background": false,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
     "cart": {
       "type": "cart",
       "settings": {
@@ -52,6 +101,8 @@
   },
   "order": [
     "1652927026e9100910",
+    "166377383827624ee2",
+    "166377378431fd10c0",
     "cart",
     "16529268760ce9749d"
   ]
