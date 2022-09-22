@@ -2,7 +2,6 @@
   "sections": {
     "1656545097e1b918ec": {
       "type": "hero",
-      "disabled": true,
       "blocks": {
         "165654509731fc937f-2": {
           "type": "button",
@@ -29,7 +28,7 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "mobile_min_height": 400,
-        "image_mobile": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_1200_x_1400_px_1200_x_1200_px_1.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Laptop_Computer_Illustration_Instagram_posts_1.jpg",
         "video_mobile": "",
         "expanded": true,
         "collapsed": true,
@@ -39,6 +38,7 @@
     },
     "1652148261a35b659e": {
       "type": "hero",
+      "disabled": true,
       "blocks": {
         "050a7609-d85b-4a66-b6cd-090e25062ac7": {
           "type": "button",
@@ -84,6 +84,7 @@
     },
     "hero": {
       "type": "hero",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
