@@ -61,7 +61,7 @@
         "settings": {
           "show_announcement": true,
           "home_page_only": false,
-          "top_banner_text": "<b> $4 Canada wide shipping! Buy a 2nd Kit & SAVE $10 <\/b>",
+          "top_banner_text": "<h3> $4 Canada wide shipping! Buy a 2nd Kit & SAVE $10 <\/h3>",
           "announcement_link": "shopify:\/\/products\/grow-your-own-mushroom-kit-oyster",
           "color_announcement_text": "#ffffff",
           "color_announcement_bg": "#82b5b0"
