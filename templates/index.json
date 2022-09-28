@@ -224,7 +224,7 @@
         "a855ef93-fcfa-4d3c-a5cb-a44f065ca55c": {
           "type": "html",
           "settings": {
-            "code": "<center>\n\n<video width=\"100%\" height=\"auto\" autoplay=\"\" muted=\"\">\n\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4a8637b271564ac4a1e87208bb93c338.mp4\" type=\"video\/mp4\">\n  \n  Your browser does not support the video tag.\n  \n<\/source><\/video>\n\n<\/center>",
+            "code": "<center>\n\n<video width=\"100%\" height=\"auto\" autoplay=\"\" muted=\"\">\n\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b7f92960033447f682cbdc84e99430b5.mp4\">\n  \n  Your browser does not support the video tag.\n  \n<\/source><\/video>\n\n<\/center>",
             "width": "100%"
           }
         }
