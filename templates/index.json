@@ -2,7 +2,6 @@
   "sections": {
     "1656545097e1b918ec": {
       "type": "hero",
-      "disabled": true,
       "blocks": {
         "165654509731fc937f-2": {
           "type": "button",
@@ -19,7 +18,7 @@
         "165654509731fc937f-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Happy_Caps_-_Hero_Banner_86b1c639-9525-45a5-b585-f2554cb5cfd6.jpg",
+        "image": "shopify:\/\/shop_images\/THANKSGIVING-02.jpg",
         "video": "",
         "alignment": "h-center v-center",
         "color_heading": "#121212",
@@ -29,7 +28,7 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "mobile_min_height": 400,
-        "image_mobile": "shopify:\/\/shop_images\/Laptop_Computer_Illustration_Instagram_posts_1.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/THANKSGIVING-03_0e23709b-16bc-4123-adb6-62a4ca98e842.jpg",
         "video_mobile": "",
         "expanded": true,
         "collapsed": true,
@@ -39,6 +38,7 @@
     },
     "1652148261a35b659e": {
       "type": "hero",
+      "disabled": true,
       "blocks": {
         "050a7609-d85b-4a66-b6cd-090e25062ac7": {
           "type": "button",
@@ -84,6 +84,7 @@
     },
     "hero": {
       "type": "hero",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
