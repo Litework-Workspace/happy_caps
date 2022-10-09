@@ -11,27 +11,24 @@
       "blocks": {
         "165298624645d194a9-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "text": "Hero heading",
+            "text": "Let's GROW Together!",
             "max_width": 500
           }
         },
         "165298624645d194a9-1": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "text": "Hero subheading",
-            "max_width": 500
+            "text": "Join our list of  retailers today,",
+            "max_width": 580
           }
         },
         "165298624645d194a9-2": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "text": "Shop now",
-            "link": "shopify:\/\/collections\/all",
-            "style": "border",
+            "text": "Retailers wanted",
+            "link": "",
+            "style": "accent",
             "size": "normal"
           }
         }
@@ -42,9 +39,9 @@
         "165298624645d194a9-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Wholesalers_Wanted_b4a52663-d855-4780-9cb7-4813c636581d.jpg",
+        "image": "shopify:\/\/shop_images\/Happycaps_-_wholesale_banner_8.jpg",
         "video": "",
-        "alignment": "h-center v-center",
+        "alignment": "h-left v-center",
         "color_heading": "#121212",
         "color_subheading": "#121212",
         "color_line_button": "#121212",
@@ -60,32 +57,75 @@
         "show_on_mobile": true
       }
     },
+    "a2371d23-86ef-4722-9bc4-1071616fdd6d": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "template--15802950058135__a2371d23-86ef-4722-9bc4-1071616fdd6d-16653481151c84c186-0": {
+          "type": "text_column",
+          "settings": {
+            "show_image": true,
+            "image_type": "custom",
+            "image": "shopify:\/\/shop_images\/7.png",
+            "title": "<b>Great Quality<\/b>",
+            "text": "<p>We deliver a<strong> premium<\/strong> \"Grow at Home\" mushroom kit for the Canadian market.<\/p>",
+            "link": ""
+          }
+        },
+        "template--15802950058135__a2371d23-86ef-4722-9bc4-1071616fdd6d-16653481151c84c186-1": {
+          "type": "text_column",
+          "settings": {
+            "show_image": true,
+            "image_type": "custom",
+            "image": "shopify:\/\/shop_images\/8.png",
+            "title": "<b>Fast Deliveries<\/b>",
+            "text": "<p>From the ground up, we've built the <strong>fastest <\/strong>and most efficient fullfilmet service avialable.<\/p>",
+            "link": ""
+          }
+        },
+        "template--15802950058135__a2371d23-86ef-4722-9bc4-1071616fdd6d-16653481151c84c186-2": {
+          "type": "text_column",
+          "settings": {
+            "show_image": true,
+            "image_type": "custom",
+            "image": "shopify:\/\/shop_images\/9.png",
+            "title": "<b> Product Guarantee<\/b>",
+            "text": "<p>We <strong>replace<\/strong> any expired, damaged or returned kits at no extra cost to retailers.<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15802950058135__a2371d23-86ef-4722-9bc4-1071616fdd6d-16653481151c84c186-0",
+        "template--15802950058135__a2371d23-86ef-4722-9bc4-1071616fdd6d-16653481151c84c186-1",
+        "template--15802950058135__a2371d23-86ef-4722-9bc4-1071616fdd6d-16653481151c84c186-2"
+      ],
+      "settings": {
+        "heading": "The Happy Caps Guarantee",
+        "subheading": "<p>We pride ourselves in upholding professional standards across all our retailer agreements and fulfilment obligations.<\/p>",
+        "columns": 3,
+        "align": "center",
+        "show_background": false,
+        "expanded": true,
+        "content_max_width": 1000,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
     "1652986248e6d943ed": {
       "type": "custom-content",
       "blocks": {
         "1652986248d3a86073-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHOTO-2021-12-15-15-58-03_96b37bcc-9156-4860-b6bf-1f1f5b8ac0bc.jpg",
+            "image": "shopify:\/\/shop_images\/Resized_3_BOX_MOCKUP.jpg",
             "width": "50%",
             "alignment": "center"
-          }
-        },
-        "1652986248d3a86073-0": {
-          "type": "text",
-          "settings": {
-            "title": "Interested In Wholesale?",
-            "text": "<p>We are thrilled to partner with current Brick & Mortar shops to display our products and enter into wholesale opporunties with us! <\/p><p>If you think your business would be a great fit, you can contact us directly at <strong>wholesale@happycaps.ca <\/strong><\/p>",
-            "width": "100%",
-            "alignment": "center",
-            "align_text": "center"
           }
         }
       },
       "block_order": [
-        "1652986248d3a86073-1",
-        "1652986248d3a86073-0"
+        "1652986248d3a86073-1"
       ],
       "settings": {
         "heading": "",
@@ -99,30 +139,17 @@
     },
     "1652986371b39ae7e6": {
       "type": "custom-content",
-      "disabled": true,
       "blocks": {
-        "1652986371dffb9571-1": {
-          "type": "image",
+        "f1bebbcd-ef23-4eec-bceb-04c384f68820": {
+          "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Resized_3_BOX_MOCKUP.jpg",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
-        "1652986371dffb9571-0": {
-          "type": "text",
-          "settings": {
-            "title": "Own A Brick & Mortar Location?",
-            "text": "<p>We require reatiler of Happy Caps to be established for a minimum of __ years and own or lease a retail brick & mortar storefront. The reason for these requirments is to make sure we partner with professional, pre-established business that have a clientel interested in growing groumet mushroom in their home!<\/p>",
-            "width": "50%",
-            "alignment": "center",
-            "align_text": "left"
+            "code": "<div class=\"klaviyo-form-STRBsB\"><\/div>",
+            "width": "100%"
           }
         }
       },
       "block_order": [
-        "1652986371dffb9571-1",
-        "1652986371dffb9571-0"
+        "f1bebbcd-ef23-4eec-bceb-04c384f68820"
       ],
       "settings": {
         "heading": "",
@@ -133,12 +160,67 @@
         "show_on_desktop": true,
         "show_on_mobile": true
       }
+    },
+    "6a6f8682-d76d-4d79-9f97-acb22eb90e28": {
+      "type": "hero",
+      "blocks": {
+        "template--15802950058135__6a6f8682-d76d-4d79-9f97-acb22eb90e28-16653481121079c4ef-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero heading",
+            "max_width": 500
+          }
+        },
+        "template--15802950058135__6a6f8682-d76d-4d79-9f97-acb22eb90e28-16653481121079c4ef-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero subheading",
+            "max_width": 500
+          }
+        },
+        "template--15802950058135__6a6f8682-d76d-4d79-9f97-acb22eb90e28-16653481121079c4ef-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "Shop now",
+            "link": "shopify:\/\/collections\/all",
+            "style": "border",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15802950058135__6a6f8682-d76d-4d79-9f97-acb22eb90e28-16653481121079c4ef-0",
+        "template--15802950058135__6a6f8682-d76d-4d79-9f97-acb22eb90e28-16653481121079c4ef-1",
+        "template--15802950058135__6a6f8682-d76d-4d79-9f97-acb22eb90e28-16653481121079c4ef-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/happy_caps_mushroom_farm_3.jpg",
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": true,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
     }
   },
   "order": [
     "main",
     "1652986246295c8597",
+    "a2371d23-86ef-4722-9bc4-1071616fdd6d",
     "1652986248e6d943ed",
-    "1652986371b39ae7e6"
+    "1652986371b39ae7e6",
+    "6a6f8682-d76d-4d79-9f97-acb22eb90e28"
   ]
 }
