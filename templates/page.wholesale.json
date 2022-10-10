@@ -26,7 +26,7 @@
         "165298624645d194a9-2": {
           "type": "button",
           "settings": {
-            "text": "Retailers wanted",
+            "text": "Find Out More",
             "link": "",
             "style": "accent",
             "size": "normal"
@@ -122,10 +122,21 @@
             "width": "50%",
             "alignment": "center"
           }
+        },
+        "776f5779-102b-4c57-8c06-895a71b63233": {
+          "type": "text",
+          "settings": {
+            "title": "Interested In Selling Mushroom Kits? Let's Chat!",
+            "text": "<p>Wether your new to the growing industry, or own a large retail store we are the <strong>Fungi<\/strong> product your customers will love and you will want!<\/p><p><\/p><p><\/p><p>We are looking for retailers interested in carrying a product line that will <strong>WOW <\/strong>their customer, while providing a fung-tastic introduction to growing your own <strong>FRESH<\/strong> mushrooms at home!<\/p><p><\/p><p>Complete our sign up form below and recieve a copy of our <em>\"New Retailers Guide\" to your email<\/em><\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left"
+          }
         }
       },
       "block_order": [
-        "1652986248d3a86073-1"
+        "1652986248d3a86073-1",
+        "776f5779-102b-4c57-8c06-895a71b63233"
       ],
       "settings": {
         "heading": "",
