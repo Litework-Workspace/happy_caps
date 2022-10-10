@@ -6,6 +6,60 @@
       "settings": {
       }
     },
+    "c43994ec-3352-43de-b490-263fd82e5bab": {
+      "type": "hero",
+      "blocks": {
+        "template--15802950058135__c43994ec-3352-43de-b490-263fd82e5bab-166541390354676096-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero heading",
+            "max_width": 500
+          }
+        },
+        "template--15802950058135__c43994ec-3352-43de-b490-263fd82e5bab-166541390354676096-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero subheading",
+            "max_width": 500
+          }
+        },
+        "template--15802950058135__c43994ec-3352-43de-b490-263fd82e5bab-166541390354676096-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "Shop now",
+            "link": "shopify:\/\/collections\/all",
+            "style": "border",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15802950058135__c43994ec-3352-43de-b490-263fd82e5bab-166541390354676096-0",
+        "template--15802950058135__c43994ec-3352-43de-b490-263fd82e5bab-166541390354676096-1",
+        "template--15802950058135__c43994ec-3352-43de-b490-263fd82e5bab-166541390354676096-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_51daba07-51b2-4a1a-8dc3-55937f27cb2d.jpg",
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "image_mobile": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_51daba07-51b2-4a1a-8dc3-55937f27cb2d.jpg",
+        "video_mobile": "",
+        "expanded": false,
+        "collapsed": false,
+        "show_on_desktop": false,
+        "show_on_mobile": true
+      }
+    },
     "1652986246295c8597": {
       "type": "hero",
       "blocks": {
@@ -54,7 +108,7 @@
         "expanded": true,
         "collapsed": false,
         "show_on_desktop": true,
-        "show_on_mobile": true
+        "show_on_mobile": false
       }
     },
     "a2371d23-86ef-4722-9bc4-1071616fdd6d": {
@@ -228,6 +282,7 @@
   },
   "order": [
     "main",
+    "c43994ec-3352-43de-b490-263fd82e5bab",
     "1652986246295c8597",
     "a2371d23-86ef-4722-9bc4-1071616fdd6d",
     "1652986248e6d943ed",
