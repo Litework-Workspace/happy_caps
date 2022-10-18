@@ -1,7 +1,32 @@
 {
   "sections": {
+    "301df7c9-d75a-48c3-8c07-221883a31635": {
+      "type": "custom-content",
+      "blocks": {
+        "60f13b0d-3e57-4f5c-9161-f86c77704358": {
+          "type": "html",
+          "settings": {
+            "code": "<center>\n\n<video width=\"100%\" height=\"auto\" autoplay=\"\" muted=\"\">\n\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b7f92960033447f682cbdc84e99430b5.mp4\">\n  \n  Your browser does not support the video tag.\n  \n<\/source><\/video>\n\n<\/center>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "60f13b0d-3e57-4f5c-9161-f86c77704358"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": true,
+        "expanded": true,
+        "expanded_content": true,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
     "hero": {
       "type": "hero",
+      "disabled": true,
       "blocks": {
         "subheading": {
           "type": "subheading",
@@ -308,6 +333,7 @@
     }
   },
   "order": [
+    "301df7c9-d75a-48c3-8c07-221883a31635",
     "hero",
     "main",
     "165221614365009276",
