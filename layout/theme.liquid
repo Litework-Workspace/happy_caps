@@ -1,11 +1,12 @@
-{%- comment %}<locksmith:d90e>{% endcomment -%}
+{%- comment %}<locksmith:15c1>{% endcomment -%}
   {%- include 'locksmith' -%}
-{%- comment %}</locksmith:d90e>{% endcomment -%}
+{%- comment %}</locksmith:15c1>{% endcomment -%}
 
 <!doctype html>
 <!-- Colors Theme Version 9.0.1 -->
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+    {{ locksmith_initializations }}
     
    <!-- Google Analytic Tag Manage Start -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5KHP3F1VBL"></script>
@@ -19,7 +20,6 @@
 
 <!-- Google Analytic Tag Manage end -->
     
-    {{ locksmith_initializations }}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -142,10 +142,10 @@
     </title>
 
     {% if page_description %}
-      {%- comment %}<locksmith:15b1>{% endcomment -%}
+      {%- comment %}<locksmith:9b9e>{% endcomment -%}
         {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
         {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
-      {%- comment %}</locksmith:15b1>{% endcomment -%}
+      {%- comment %}</locksmith:9b9e>{% endcomment -%}
     {% endif %}
 
     {% render 'social-meta-tags' %}
