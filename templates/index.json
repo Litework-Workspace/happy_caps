@@ -2,7 +2,6 @@
   "sections": {
     "1656545097e1b918ec": {
       "type": "hero",
-      "disabled": true,
       "blocks": {
         "165654509731fc937f-2": {
           "type": "button",
@@ -19,7 +18,7 @@
         "165654509731fc937f-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/THANKSGIVING-02.jpg",
+        "image": "shopify:\/\/shop_images\/BANNER-02.jpg",
         "video": "",
         "alignment": "h-center v-center",
         "color_heading": "#121212",
@@ -39,6 +38,7 @@
     },
     "1652148261a35b659e": {
       "type": "hero",
+      "disabled": true,
       "blocks": {
         "050a7609-d85b-4a66-b6cd-090e25062ac7": {
           "type": "button",
@@ -84,6 +84,7 @@
     },
     "hero": {
       "type": "hero",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
