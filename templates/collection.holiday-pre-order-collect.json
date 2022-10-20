@@ -2,7 +2,6 @@
   "sections": {
     "165272843553187431": {
       "type": "hero",
-      "disabled": true,
       "blocks": {
         "165272843473715169-0": {
           "type": "heading",
@@ -37,7 +36,7 @@
         "165272843473715169-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/AMAZON_A_1_-13.jpg",
+        "image": "shopify:\/\/shop_images\/BANNER-02.jpg",
         "video": "",
         "alignment": "h-center v-center",
         "color_heading": "#121212",
@@ -54,37 +53,10 @@
         "show_on_mobile": false
       }
     },
-    "1652728445191b8d9b": {
-      "type": "custom-content",
-      "blocks": {
-        "16527284453c6b3b8f-0": {
-          "type": "text",
-          "settings": {
-            "title": "{{ collection.title }}",
-            "text": "<p>{{ collection.metafields.my_fields.collection_description.value }}<\/p>",
-            "width": "100%",
-            "alignment": "center",
-            "align_text": "center"
-          }
-        }
-      },
-      "block_order": [
-        "16527284453c6b3b8f-0"
-      ],
-      "settings": {
-        "heading": "",
-        "show_background": true,
-        "expanded": false,
-        "expanded_content": false,
-        "collapsed": false,
-        "show_on_desktop": true,
-        "show_on_mobile": true
-      }
-    },
     "main-collection": {
       "type": "main-collection",
       "settings": {
-        "show_collection_title": false,
+        "show_collection_title": true,
         "show_collection_description": false,
         "show_collection_image": true,
         "enable_filtering": false,
@@ -303,14 +275,39 @@
         "show_on_desktop": true,
         "show_on_mobile": false
       }
+    },
+    "dd5ae762-c019-4e9a-929d-63ec9421615e": {
+      "type": "custom-content",
+      "disabled": true,
+      "blocks": {
+        "df72985d-6cf8-4561-8dfa-19318426f9af": {
+          "type": "html",
+          "settings": {
+            "code": "",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "df72985d-6cf8-4561-8dfa-19318426f9af"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
     }
   },
   "order": [
     "165272843553187431",
-    "1652728445191b8d9b",
     "main-collection",
     "1652925969f073ead8",
     "1659717158dbe72ca0",
-    "1652925791faf853ed"
+    "1652925791faf853ed",
+    "dd5ae762-c019-4e9a-929d-63ec9421615e"
   ]
 }
