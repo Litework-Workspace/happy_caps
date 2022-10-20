@@ -28,6 +28,7 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "mobile_min_height": 400,
+        "image_mobile": "shopify:\/\/shop_images\/REtailers.jpg",
         "video_mobile": "",
         "expanded": true,
         "collapsed": true,
