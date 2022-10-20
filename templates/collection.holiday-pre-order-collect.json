@@ -1,0 +1,316 @@
+{
+  "sections": {
+    "165272843553187431": {
+      "type": "hero",
+      "disabled": true,
+      "blocks": {
+        "165272843473715169-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero heading",
+            "max_width": 500
+          }
+        },
+        "165272843473715169-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero subheading",
+            "max_width": 500
+          }
+        },
+        "165272843473715169-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "Shop now",
+            "link": "shopify:\/\/collections\/all",
+            "style": "border",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "165272843473715169-0",
+        "165272843473715169-1",
+        "165272843473715169-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AMAZON_A_1_-13.jpg",
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": false
+      }
+    },
+    "1652728445191b8d9b": {
+      "type": "custom-content",
+      "blocks": {
+        "16527284453c6b3b8f-0": {
+          "type": "text",
+          "settings": {
+            "title": "{{ collection.title }}",
+            "text": "<p>{{ collection.metafields.my_fields.collection_description.value }}<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16527284453c6b3b8f-0"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "settings": {
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "enable_filtering": false,
+        "filter_type": "regular",
+        "enable_sorting": false,
+        "show_labels": true,
+        "show_background": false,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": true
+      }
+    },
+    "1652925969f073ead8": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "16529259693ea0e2e9-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long until my mushroom kit arrives?",
+            "content": "<p>Answer...<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "16529259693ea0e2e9-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I start growing the mushrooms?",
+            "content": "<p>Answer...<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "16529259693ea0e2e9-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Where should I place the kit while growing?",
+            "content": "<p>Answer...<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "6c25c3df-fc2e-4866-b9d1-d42681bf92ca": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How many mushrooms does each kit make?",
+            "content": "<p>Answer...<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "4d1a1d90-9cbf-4d7c-933a-d0de2f631f07": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How should I store the kit if im not going to open it?",
+            "content": "<p>Answer...<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "d5d9aa75-6b56-402a-b197-a3aa135fb3d7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I keep growing mushrooms after the first harvest?",
+            "content": "<p>Answer...<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "16529259693ea0e2e9-0",
+        "16529259693ea0e2e9-1",
+        "16529259693ea0e2e9-2",
+        "6c25c3df-fc2e-4866-b9d1-d42681bf92ca",
+        "4d1a1d90-9cbf-4d7c-933a-d0de2f631f07",
+        "d5d9aa75-6b56-402a-b197-a3aa135fb3d7"
+      ],
+      "settings": {
+        "title": "FAQ - Questions & Answers",
+        "subtitle": "",
+        "show_background": false,
+        "expanded": true,
+        "content_max_width": 950,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "1659717158dbe72ca0": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "1659717158a34fd22f-0": {
+          "type": "title",
+          "settings": {
+            "increase_space_before_block": false
+          }
+        },
+        "1659717158a34fd22f-1": {
+          "type": "price",
+          "settings": {
+            "increase_space_before_block": false
+          }
+        },
+        "1659717158a34fd22f-2": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "radios",
+            "swatches_selector": "",
+            "popup_selector": "Size",
+            "popup_text": "Size guide",
+            "popup_page": "",
+            "increase_space_before_block": true
+          }
+        },
+        "1659717158a34fd22f-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_pickup_availability": true,
+            "increase_space_before_block": true
+          }
+        },
+        "1659717158a34fd22f-4": {
+          "type": "description",
+          "settings": {
+            "increase_space_before_block": true
+          }
+        },
+        "1659717158a34fd22f-5": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Tab 1",
+            "content": "<p>Tab 1 content.<\/p>",
+            "page": "",
+            "icon": "washing",
+            "increase_space_before_block": true
+          }
+        },
+        "1659717158a34fd22f-6": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Tab 2",
+            "content": "<p>Tab 2 content.<\/p>",
+            "page": "",
+            "icon": "leaf",
+            "increase_space_before_block": true
+          }
+        },
+        "1659717158a34fd22f-7": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Tab 3",
+            "content": "<p>Tab 3 content.<\/p>",
+            "page": "",
+            "icon": "truck",
+            "increase_space_before_block": true
+          }
+        },
+        "1659717158a34fd22f-8": {
+          "type": "share",
+          "settings": {
+            "facebook_sharing_products": true,
+            "twitter_sharing_products": true,
+            "pinterest_sharing_products": true,
+            "increase_space_before_block": true
+          }
+        }
+      },
+      "block_order": [
+        "1659717158a34fd22f-0",
+        "1659717158a34fd22f-1",
+        "1659717158a34fd22f-2",
+        "1659717158a34fd22f-3",
+        "1659717158a34fd22f-4",
+        "1659717158a34fd22f-5",
+        "1659717158a34fd22f-6",
+        "1659717158a34fd22f-7",
+        "1659717158a34fd22f-8"
+      ],
+      "settings": {
+        "featured_product": "grow-your-own-mushroom-kit-oyster",
+        "thumbnails_position": "stack",
+        "enable_sticky_info": true,
+        "zoom_enable": true,
+        "enable_video_looping": false,
+        "first_variant_media_enabled": false,
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": false,
+        "collapsed": false
+      }
+    },
+    "1652925791faf853ed": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_22.png",
+        "video": "",
+        "alignment": "h-center v-center",
+        "color_heading": "#121212",
+        "color_subheading": "#121212",
+        "color_line_button": "#121212",
+        "color_paragraph": "#121212",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_min_height": 500,
+        "video_mobile": "",
+        "expanded": true,
+        "collapsed": true,
+        "show_on_desktop": true,
+        "show_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "165272843553187431",
+    "1652728445191b8d9b",
+    "main-collection",
+    "1652925969f073ead8",
+    "1659717158dbe72ca0",
+    "1652925791faf853ed"
+  ]
+}
