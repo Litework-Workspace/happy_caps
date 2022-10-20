@@ -116,6 +116,7 @@
         },
         "collapsible_tab_1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "{{ product.metafields.my_fields.health_benefits_title.value }}",
             "content": "<p>{{ product.metafields.my_fields.tab_health_benefit_description | metafield_tag }}<\/p>",
@@ -126,6 +127,7 @@
         },
         "collapsible_tab_2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "{{ product.metafields.my_fields.growing_instructions_title.value }}",
             "content": "<p>{{ product.metafields.my_fields.growing_instructions | metafield_tag }}<\/p>",
