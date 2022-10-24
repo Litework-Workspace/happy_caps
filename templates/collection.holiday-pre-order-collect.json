@@ -54,10 +54,25 @@
         "show_on_mobile": false
       }
     },
+    "9168a51e-6c80-4a40-a902-09812f0bb34a": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Mushroom Kit Holiday Pre-order",
+        "richtext": "<p><strong>Our popular holiday pre-order sale is back, order now for the holidays and save!<\/strong><\/p><p><em>All pre-orders will ship by December 6th to ensure they arrive on time.<\/em><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "show_background": false,
+        "expanded": true,
+        "content_max_width": 900,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
     "main-collection": {
       "type": "main-collection",
       "settings": {
-        "show_collection_title": true,
+        "show_collection_title": false,
         "show_collection_description": false,
         "show_collection_image": true,
         "enable_filtering": false,
@@ -287,10 +302,21 @@
             "code": "",
             "width": "100%"
           }
+        },
+        "2fad25c8-b58d-4826-9ceb-c9ed9e1d5a23": {
+          "type": "text",
+          "settings": {
+            "title": "Talk about your brand",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left"
+          }
         }
       },
       "block_order": [
-        "df72985d-6cf8-4561-8dfa-19318426f9af"
+        "df72985d-6cf8-4561-8dfa-19318426f9af",
+        "2fad25c8-b58d-4826-9ceb-c9ed9e1d5a23"
       ],
       "settings": {
         "heading": "",
@@ -305,6 +331,7 @@
   },
   "order": [
     "165272843553187431",
+    "9168a51e-6c80-4a40-a902-09812f0bb34a",
     "main-collection",
     "1652925969f073ead8",
     "1659717158dbe72ca0",
