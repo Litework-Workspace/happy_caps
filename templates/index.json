@@ -9,7 +9,7 @@
           "settings": {
             "text": "",
             "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-oyster",
-            "style": "accent",
+            "style": "solid",
             "size": "normal"
           }
         }
@@ -149,6 +149,60 @@
         "show_on_mobile": false
       }
     },
+    "d37e8c75-466b-4ada-bc37-7d64ce1ba32d": {
+      "type": "custom-content",
+      "blocks": {
+        "template--15802950025367__d37e8c75-466b-4ada-bc37-7d64ce1ba32d-16669758629cdfd400-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p><a href=\"\/collections\/holiday-pre-sale-colelction\" title=\"Holiday Pre-Order Mushroom Kits\"><strong>Shop Holiday Pre-Sale Mushroom Kits Here<\/strong><\/a><\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15802950025367__d37e8c75-466b-4ada-bc37-7d64ce1ba32d-16669758629cdfd400-0"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": false,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": false,
+        "show_on_mobile": true
+      }
+    },
+    "af451158-d659-4871-a84a-9b8d4b0012b0": {
+      "type": "custom-content",
+      "blocks": {
+        "template--15802950025367__af451158-d659-4871-a84a-9b8d4b0012b0-16669758629cdfd400-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p><a href=\"\/collections\/holiday-pre-sale-colelction\" title=\"Holiday Pre-Order Mushroom Kits\"><strong>Shop Our Holiday Pre-Sale Mushroom Kits Here<\/strong><\/a><\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15802950025367__af451158-d659-4871-a84a-9b8d4b0012b0-16669758629cdfd400-0"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": false,
+        "expanded": false,
+        "expanded_content": true,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": false
+      }
+    },
     "1652917121308398b4": {
       "type": "custom-content",
       "blocks": {
@@ -190,6 +244,31 @@
         "expanded_content": false,
         "collapsed": true,
         "show_on_desktop": false,
+        "show_on_mobile": true
+      }
+    },
+    "780d6def-695a-4f37-a16b-5dbe7fe81a1d": {
+      "type": "call-to-action",
+      "disabled": true,
+      "blocks": {
+        "template--15802950025367__780d6def-695a-4f37-a16b-5dbe7fe81a1d-1666975862ceed0af3-0": {
+          "type": "banner",
+          "settings": {
+            "title": "Give The Gift Of Mushrooms",
+            "subtitle": "Shop Pre-Sale Mushroom Kits Here",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15802950025367__780d6def-695a-4f37-a16b-5dbe7fe81a1d-1666975862ceed0af3-0"
+      ],
+      "settings": {
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": true,
+        "collapsed": true,
+        "show_on_desktop": true,
         "show_on_mobile": true
       }
     },
@@ -483,48 +562,6 @@
         "show_on_mobile": false
       }
     },
-    "1652235602bfce983e": {
-      "type": "custom-content",
-      "disabled": true,
-      "blocks": {
-        "1652235602aec7ef7a-0": {
-          "type": "text",
-          "settings": {
-            "title": "Shop All Mushroom Kits & Plugs",
-            "text": "<p><strong>Our <\/strong><a href=\"\/products\/grow-your-own-mushroom-kit-shiitake\" title=\"Grow Your Own Mushroom Kit - Shiitake\"><strong>Shiitake<\/strong><\/a><strong>, <\/strong><a href=\"\/products\/grow-your-own-mushroom-kit-oyster\" title=\"Grow Your Own Mushroom Kit - Oyster\"><strong>Oyster,<\/strong><\/a><strong> and <\/strong><a href=\"\/products\/grow-your-own-mushroom-kit-lions-mane\" title=\"Grow Your Own Mushroom Kit - Lion's Mane\"><strong>Lions Mane<\/strong><\/a><strong> mushroom kits are specifically designed for at home ubran gardeners and fungi entusiasts <\/strong><\/p>",
-            "width": "100%",
-            "alignment": "center",
-            "align_text": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1652235602aec7ef7a-0"
-      ],
-      "settings": {
-        "heading": "",
-        "show_background": true,
-        "expanded": false,
-        "expanded_content": false,
-        "collapsed": true,
-        "show_on_desktop": true,
-        "show_on_mobile": true
-      }
-    },
-    "16528383090332c4cd": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-c63405d2-6589-4d4d-9f88-bae2b8595e4a\"><\/div>",
-        "show_as_section": true,
-        "show_background": true,
-        "expanded": true,
-        "expanded_content": true,
-        "collapsed": true,
-        "show_on_desktop": true,
-        "show_on_mobile": true
-      }
-    },
     "1659720554f4a0dcb6": {
       "type": "text-columns-with-images",
       "blocks": {
@@ -802,34 +839,6 @@
         "show_on_mobile": true
       }
     },
-    "1652970144590373a9": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-633ee3c9-4f5d-4265-8ada-65ad3b726593\"><\/div>",
-        "show_as_section": true,
-        "show_background": true,
-        "expanded": false,
-        "expanded_content": false,
-        "collapsed": false,
-        "show_on_desktop": true,
-        "show_on_mobile": true
-      }
-    },
-    "16529701598ac20f01": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-efdf61e2-e71d-4c8d-87b4-2369762b415f\"><\/div>",
-        "show_as_section": true,
-        "show_background": true,
-        "expanded": false,
-        "expanded_content": false,
-        "collapsed": false,
-        "show_on_desktop": true,
-        "show_on_mobile": true
-      }
-    },
     "1652921525b7fe4aa4": {
       "type": "call-to-action",
       "blocks": {
@@ -882,26 +891,16 @@
         "show_on_desktop": false,
         "show_on_mobile": false
       }
-    },
-    "166327752517117ccf": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "show_as_section": true,
-        "show_background": true,
-        "expanded": false,
-        "expanded_content": false,
-        "collapsed": false,
-        "show_on_desktop": true,
-        "show_on_mobile": true
-      }
     }
   },
   "order": [
     "1656545097e1b918ec",
     "1652148261a35b659e",
     "hero",
+    "d37e8c75-466b-4ada-bc37-7d64ce1ba32d",
+    "af451158-d659-4871-a84a-9b8d4b0012b0",
     "1652917121308398b4",
+    "780d6def-695a-4f37-a16b-5dbe7fe81a1d",
     "16522330583e8b8f38",
     "16521470469089b9e4",
     "165214717733bca1af",
@@ -911,17 +910,12 @@
     "1652922418ca670ca9",
     "165292042702b7db8d",
     "1652754853c68c2032",
-    "1652235602bfce983e",
-    "16528383090332c4cd",
     "1659720554f4a0dcb6",
     "1659720713e527b05a",
     "16597208128ca0ed11",
     "1652149164228d719a",
     "1652755614a00eb966",
-    "1652970144590373a9",
-    "16529701598ac20f01",
     "1652921525b7fe4aa4",
-    "16528393266f45fb58",
-    "166327752517117ccf"
+    "16528393266f45fb58"
   ]
 }
