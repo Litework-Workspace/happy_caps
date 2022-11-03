@@ -61,7 +61,7 @@
         "settings": {
           "show_announcement": true,
           "home_page_only": false,
-          "top_banner_text": "<big> <b> $5 Shipping In North America! Buy a 2nd Kit & SAVE $10<\/b><\/big>",
+          "top_banner_text": "<big> <b> $5 Shipping In North America! Buy a 2nd Kit & SAVE!<\/b><\/big>",
           "announcement_link": "shopify:\/\/collections\/holiday-pre-sale-colelction",
           "color_announcement_text": "#ffffff",
           "color_announcement_bg": "#82b5b0"
