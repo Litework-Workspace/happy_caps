@@ -784,9 +784,9 @@
         "template--15802950025367__19923a65-cef0-444c-a7c1-c5b472bbd8fe-1667663830b777bf56-2"
       ],
       "settings": {
-        "with_transition": false,
+        "with_transition": true,
         "with_separation": true,
-        "with_overlap": true,
+        "with_overlap": false,
         "expanded": false,
         "collapsed": false,
         "show_on_desktop": true,
