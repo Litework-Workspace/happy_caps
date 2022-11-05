@@ -688,6 +688,7 @@
       "blocks": {
         "1652149164453ecbbe-2": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "grow-your-own-mushroom-kit-shiitake",
             "url": "",
@@ -699,7 +700,7 @@
         "1652149164453ecbbe-0": {
           "type": "product",
           "settings": {
-            "product": "grow-your-own-mushroom-kit-lions-mane",
+            "product": "us-copy-of-lions-mane-mushroom-kit",
             "url": "",
             "title": "Lions Mane Mushroom Kit",
             "subtitle": "",
@@ -709,7 +710,7 @@
         "1652149164453ecbbe-1": {
           "type": "product",
           "settings": {
-            "product": "grow-your-own-mushroom-kit-oyster",
+            "product": "us-copy-of-oyster-mushroom-kit",
             "url": "",
             "title": "Oyster Mushroom Kit",
             "subtitle": "",
