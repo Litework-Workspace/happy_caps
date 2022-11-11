@@ -743,44 +743,6 @@
         "show_on_mobile": true
       }
     },
-    "621a31a1-82f8-46ee-8144-13b7a06587b6": {
-      "type": "featured-products",
-      "blocks": {
-        "template--15802950025367__621a31a1-82f8-46ee-8144-13b7a06587b6-16681919847c9cd738-0": {
-          "type": "product",
-          "settings": {
-            "product": "us-copy-of-lions-mane-mushroom-kit",
-            "url": "",
-            "title": "",
-            "subtitle": "",
-            "hide_cta": false
-          }
-        },
-        "template--15802950025367__621a31a1-82f8-46ee-8144-13b7a06587b6-16681919847c9cd738-1": {
-          "type": "product",
-          "settings": {
-            "product": "us-copy-of-oyster-mushroom-kit",
-            "url": "",
-            "title": "",
-            "subtitle": "",
-            "hide_cta": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15802950025367__621a31a1-82f8-46ee-8144-13b7a06587b6-16681919847c9cd738-0",
-        "template--15802950025367__621a31a1-82f8-46ee-8144-13b7a06587b6-16681919847c9cd738-1"
-      ],
-      "settings": {
-        "with_transition": false,
-        "with_separation": true,
-        "with_overlap": true,
-        "expanded": false,
-        "collapsed": false,
-        "show_on_desktop": true,
-        "show_on_mobile": true
-      }
-    },
     "1652755614a00eb966": {
       "type": "categories-list",
       "blocks": {
@@ -952,7 +914,6 @@
     "1659720713e527b05a",
     "16597208128ca0ed11",
     "1652149164228d719a",
-    "621a31a1-82f8-46ee-8144-13b7a06587b6",
     "1652755614a00eb966",
     "1652921525b7fe4aa4",
     "16528393266f45fb58"

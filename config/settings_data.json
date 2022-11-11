@@ -250,12 +250,6 @@
           "font_family_title": "helvetica_n4",
           "font_family_text": "helvetica_n3"
         }
-      },
-      "5389821579888176532": {
-        "type": "shopify:\/\/apps\/geolocation-product-blocker\/blocks\/app-embed\/cebd97aa-ffad-40fc-90fb-b9ee6a39f8b6",
-        "disabled": false,
-        "settings": {
-        }
       }
     }
   },
