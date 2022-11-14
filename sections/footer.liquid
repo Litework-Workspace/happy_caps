@@ -2,22 +2,12 @@
 {% comment %} Logic to change footer menu based on location selection {% endcomment %}
 <div class="footer {% render 'content-classes', scope: section %}" data-section-id="{{ section.id }}" data-section-type="footer" role="contentinfo">
   {% if section.blocks.size > 0 %}
-  <div class="top blocks-{{ section.blocks.size }}">
-    {% for block in section.blocks %}
-    {% case block.type %}
-    
+    <div class="top blocks-{{ section.blocks.size }}">
+      {% for block in section.blocks %}
+        {% case block.type %}
+
           {% when 'menu' %}
-            {% if localization.country.iso_code == "CA" %}
-              {% assign menu = linklists[block.settings.menu] %}
-            {% elsif localization.country.iso_code == 'US' %}
-              {% assign menu = linklists.us-footer-menu %}
-              <style>
-                .footer .col.menu:not(:first-of-type){
-                  display: none;
-                }
-              </style>
-            {% endif %}
-            {% assign menu = linklists.us-footer-menu %}
+            {% assign menu = linklists[block.settings.menu] %}
             <div class="col menu" {{ block.shopify_attributes }}>
               <h1>{{ block.settings.menu_title }}</h1>
               <ul>
