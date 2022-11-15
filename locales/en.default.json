@@ -285,7 +285,7 @@
         "one": "{{ count }} item",
         "other": "{{ count }} items"
       },
-      "note": "Purchase a 2nd kit as a Gift?! Let us know where we should send it below!",
+      "note": "<b>Purchase a 2nd kit as a Gift?! <br> <b>Let us know where we should send it below!",
       "subtotal": "Subtotal",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout.",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout.",
