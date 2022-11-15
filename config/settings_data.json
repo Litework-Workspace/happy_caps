@@ -40,7 +40,7 @@
     "product_grid_mouseover_opacity": 80,
     "product_grid_mouseover_gradient_enable": false,
     "cart_type": "page",
-    "additional_checkout_buttons_enable": false,
+    "additional_checkout_buttons_enable": true,
     "cart_notes_enable": true,
     "social_facebook_link": "https:\/\/www.facebook.com\/happycapshfx\/",
     "social_twitter_link": "",
