@@ -149,8 +149,42 @@
         "show_on_mobile": false
       }
     },
+    "ca94331f-309a-4b12-91b6-86aa27a0972b": {
+      "type": "call-to-action",
+      "blocks": {
+        "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-0": {
+          "type": "banner",
+          "settings": {
+            "title": "Shop Pre-Sale Holiday Kits!",
+            "subtitle": "Get The Best Holiday Savings! Click Here!",
+            "link": "https:\/\/happycaps.ca\/collections\/holiday-pre-sale-colelction"
+          }
+        },
+        "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-1": {
+          "type": "banner",
+          "settings": {
+            "title": "Shop U.S. Mushroom Kits!",
+            "subtitle": "Live in The United States? Click Here!",
+            "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits-u-s-a"
+          }
+        }
+      },
+      "block_order": [
+        "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-0",
+        "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-1"
+      ],
+      "settings": {
+        "show_background": false,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": false,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
     "d37e8c75-466b-4ada-bc37-7d64ce1ba32d": {
       "type": "custom-content",
+      "disabled": true,
       "blocks": {
         "template--15802950025367__d37e8c75-466b-4ada-bc37-7d64ce1ba32d-16669758629cdfd400-0": {
           "type": "text",
@@ -178,6 +212,7 @@
     },
     "af451158-d659-4871-a84a-9b8d4b0012b0": {
       "type": "custom-content",
+      "disabled": true,
       "blocks": {
         "template--15802950025367__af451158-d659-4871-a84a-9b8d4b0012b0-16669758629cdfd400-0": {
           "type": "text",
@@ -897,6 +932,7 @@
     "1656545097e1b918ec",
     "1652148261a35b659e",
     "hero",
+    "ca94331f-309a-4b12-91b6-86aa27a0972b",
     "d37e8c75-466b-4ada-bc37-7d64ce1ba32d",
     "af451158-d659-4871-a84a-9b8d4b0012b0",
     "1652917121308398b4",
