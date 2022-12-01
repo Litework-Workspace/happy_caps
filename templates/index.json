@@ -2,6 +2,7 @@
   "sections": {
     "1656545097e1b918ec": {
       "type": "hero",
+      "disabled": true,
       "blocks": {
         "165654509731fc937f-2": {
           "type": "button",
@@ -38,7 +39,6 @@
     },
     "1652148261a35b659e": {
       "type": "hero",
-      "disabled": true,
       "blocks": {
         "050a7609-d85b-4a66-b6cd-090e25062ac7": {
           "type": "button",
@@ -75,7 +75,7 @@
         "overlay_opacity": 0,
         "mobile_min_height": 500,
         "image_mobile": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_4.jpg",
-        "video_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3b06a46c9faa4c629e23684320ce3c75.mp4",
+        "video_mobile": "",
         "expanded": true,
         "collapsed": true,
         "show_on_desktop": false,
@@ -84,7 +84,6 @@
     },
     "hero": {
       "type": "hero",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -109,6 +108,7 @@
         },
         "f19a14e7-20d7-42dc-af3f-97a091f5cc38": {
           "type": "paragraph",
+          "disabled": true,
           "settings": {
             "text": "<p>Shopping In The U.S? <a href=\"\/collections\/grow-your-own-mushroom-kits-u-s-a\" title=\"Grow Your Own Mushroom Kits - U.S.A\">Click Here <\/a><\/p>",
             "max_width": 500
@@ -144,27 +144,28 @@
         "mobile_min_height": 500,
         "video_mobile": "",
         "expanded": true,
-        "collapsed": false,
+        "collapsed": true,
         "show_on_desktop": true,
         "show_on_mobile": false
       }
     },
     "ca94331f-309a-4b12-91b6-86aa27a0972b": {
       "type": "call-to-action",
+      "disabled": true,
       "blocks": {
         "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-0": {
           "type": "banner",
           "settings": {
-            "title": "Shop Pre-Sale Holiday Kits!",
-            "subtitle": "Get The Best Holiday Savings! Click Here!",
+            "title": "Shop",
+            "subtitle": "",
             "link": "https:\/\/happycaps.ca\/collections\/holiday-pre-sale-colelction"
           }
         },
         "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-1": {
           "type": "banner",
           "settings": {
-            "title": "Shop U.S. Mushroom Kits!",
-            "subtitle": "Live in The United States? Click Here!",
+            "title": "Shop",
+            "subtitle": "",
             "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits-u-s-a"
           }
         }
@@ -177,65 +178,9 @@
         "show_background": false,
         "expanded": false,
         "expanded_content": false,
-        "collapsed": false,
+        "collapsed": true,
         "show_on_desktop": true,
         "show_on_mobile": true
-      }
-    },
-    "d37e8c75-466b-4ada-bc37-7d64ce1ba32d": {
-      "type": "custom-content",
-      "disabled": true,
-      "blocks": {
-        "template--15802950025367__d37e8c75-466b-4ada-bc37-7d64ce1ba32d-16669758629cdfd400-0": {
-          "type": "text",
-          "settings": {
-            "title": "",
-            "text": "<p><a href=\"\/collections\/holiday-pre-sale-colelction\" title=\"Holiday Pre-Order Mushroom Kits\"><strong>Shop Holiday Pre-Sale Mushroom Kits Here<\/strong><\/a><\/p><p><\/p><p><a href=\"https:\/\/happycaps.ca\/products\/us-copy-of-lions-mane-mushroom-kit\" title=\"https:\/\/happycaps.ca\/products\/us-copy-of-lions-mane-mushroom-kit\"><strong>Shop USA Mushroom Kits Here<\/strong><\/a><\/p>",
-            "width": "100%",
-            "alignment": "center",
-            "align_text": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15802950025367__d37e8c75-466b-4ada-bc37-7d64ce1ba32d-16669758629cdfd400-0"
-      ],
-      "settings": {
-        "heading": "",
-        "show_background": false,
-        "expanded": false,
-        "expanded_content": false,
-        "collapsed": false,
-        "show_on_desktop": false,
-        "show_on_mobile": true
-      }
-    },
-    "af451158-d659-4871-a84a-9b8d4b0012b0": {
-      "type": "custom-content",
-      "disabled": true,
-      "blocks": {
-        "template--15802950025367__af451158-d659-4871-a84a-9b8d4b0012b0-16669758629cdfd400-0": {
-          "type": "text",
-          "settings": {
-            "title": "",
-            "text": "<p><a href=\"\/collections\/holiday-pre-sale-colelction\" title=\"Holiday Pre-Order Mushroom Kits\"><strong>Shop Holiday Pre-Sale Mushroom Kits Here<\/strong><\/a><\/p><p><a href=\"https:\/\/happycaps.ca\/products\/us-copy-of-oyster-mushroom-kit\" title=\"https:\/\/happycaps.ca\/products\/us-copy-of-oyster-mushroom-kit\"><strong>Shop USA Mushroom Kits Here<\/strong><\/a><\/p>",
-            "width": "100%",
-            "alignment": "center",
-            "align_text": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15802950025367__af451158-d659-4871-a84a-9b8d4b0012b0-16669758629cdfd400-0"
-      ],
-      "settings": {
-        "heading": "",
-        "show_background": false,
-        "expanded": false,
-        "expanded_content": true,
-        "collapsed": false,
-        "show_on_desktop": true,
-        "show_on_mobile": false
       }
     },
     "1652917121308398b4": {
@@ -265,12 +210,21 @@
             "code": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-c63405d2-6589-4d4d-9f88-bae2b8595e4a\"><\/div>",
             "width": "100%"
           }
+        },
+        "1d3ed56c-3910-4ec6-a386-983010f90f2e": {
+          "type": "html",
+          "disabled": true,
+          "settings": {
+            "code": "",
+            "width": "50%"
+          }
         }
       },
       "block_order": [
         "5333597a-0e98-4bb7-a33f-ae6b8c156210",
         "1652917121f639a051-0",
-        "0a34b331-f0ec-4128-9573-27237006c1ef"
+        "0a34b331-f0ec-4128-9573-27237006c1ef",
+        "1d3ed56c-3910-4ec6-a386-983010f90f2e"
       ],
       "settings": {
         "heading": "",
@@ -279,31 +233,6 @@
         "expanded_content": false,
         "collapsed": true,
         "show_on_desktop": false,
-        "show_on_mobile": true
-      }
-    },
-    "780d6def-695a-4f37-a16b-5dbe7fe81a1d": {
-      "type": "call-to-action",
-      "disabled": true,
-      "blocks": {
-        "template--15802950025367__780d6def-695a-4f37-a16b-5dbe7fe81a1d-1666975862ceed0af3-0": {
-          "type": "banner",
-          "settings": {
-            "title": "Give The Gift Of Mushrooms",
-            "subtitle": "Shop Pre-Sale Mushroom Kits Here",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15802950025367__780d6def-695a-4f37-a16b-5dbe7fe81a1d-1666975862ceed0af3-0"
-      ],
-      "settings": {
-        "show_background": false,
-        "expanded": true,
-        "expanded_content": true,
-        "collapsed": true,
-        "show_on_desktop": true,
         "show_on_mobile": true
       }
     },
@@ -933,10 +862,7 @@
     "1652148261a35b659e",
     "hero",
     "ca94331f-309a-4b12-91b6-86aa27a0972b",
-    "d37e8c75-466b-4ada-bc37-7d64ce1ba32d",
-    "af451158-d659-4871-a84a-9b8d4b0012b0",
     "1652917121308398b4",
-    "780d6def-695a-4f37-a16b-5dbe7fe81a1d",
     "16522330583e8b8f38",
     "16521470469089b9e4",
     "165214717733bca1af",
