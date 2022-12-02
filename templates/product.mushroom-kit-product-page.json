@@ -313,6 +313,7 @@
     },
     "16529249776dd4027d": {
       "type": "hero",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design_22.png",
         "video": "",
