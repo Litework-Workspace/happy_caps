@@ -243,7 +243,6 @@
           "helper_text": "<p>Choose your location from the options below, to get the best pricing and shipping rates available!<\/p>",
           "cta_text": "Shop now",
           "background_image_desktop": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_6.jpg",
-          "background_image_mobile": "shopify:\/\/shop_images\/Untitled_design_22.png",
           "modal_closeButton": true,
           "modal_btn_align": "left",
           "style_corners": "rounded",
