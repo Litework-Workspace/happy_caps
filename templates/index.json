@@ -108,7 +108,6 @@
         },
         "f19a14e7-20d7-42dc-af3f-97a091f5cc38": {
           "type": "paragraph",
-          "disabled": true,
           "settings": {
             "text": "<p>Shopping In The U.S? <a href=\"\/collections\/grow-your-own-mushroom-kits-u-s-a\" title=\"Grow Your Own Mushroom Kits - U.S.A\">Click Here <\/a><\/p>",
             "max_width": 500
@@ -151,12 +150,11 @@
     },
     "ca94331f-309a-4b12-91b6-86aa27a0972b": {
       "type": "call-to-action",
-      "disabled": true,
       "blocks": {
         "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-0": {
           "type": "banner",
           "settings": {
-            "title": "Shop",
+            "title": "Canadian Mushroom Kits",
             "subtitle": "",
             "link": "https:\/\/happycaps.ca\/collections\/holiday-pre-sale-colelction"
           }
@@ -164,7 +162,7 @@
         "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-1": {
           "type": "banner",
           "settings": {
-            "title": "Shop",
+            "title": "U.S.A <br> Mushroom Kits",
             "subtitle": "",
             "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits-u-s-a"
           }
@@ -180,7 +178,7 @@
         "expanded_content": false,
         "collapsed": true,
         "show_on_desktop": true,
-        "show_on_mobile": true
+        "show_on_mobile": false
       }
     },
     "1652917121308398b4": {
@@ -536,7 +534,7 @@
             "image_type": "custom",
             "image": "shopify:\/\/shop_images\/TIER_MUSHROOMS-01.jpg",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link": ""
           }
         }
@@ -602,7 +600,7 @@
             "image_type": "custom",
             "image": "shopify:\/\/shop_images\/TIER_MUSHROOMS-02.jpg",
             "title": "Oyster",
-            "text": "",
+            "text": "<p><\/p>",
             "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-oyster"
           }
         },
@@ -613,7 +611,7 @@
             "image_type": "custom",
             "image": "shopify:\/\/shop_images\/TIER_MUSHROOMS-03.jpg",
             "title": "Lions Mane",
-            "text": "",
+            "text": "<p><\/p>",
             "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-lions-mane"
           }
         },
@@ -624,7 +622,7 @@
             "image_type": "custom",
             "image": "shopify:\/\/shop_images\/TIER_MUSHROOMS-04.jpg",
             "title": "Shiitake",
-            "text": "",
+            "text": "<p><\/p>",
             "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-shiitake"
           }
         }
@@ -636,7 +634,7 @@
       ],
       "settings": {
         "heading": "",
-        "subheading": "",
+        "subheading": "<p><\/p>",
         "columns": 3,
         "align": "center",
         "show_background": false,
