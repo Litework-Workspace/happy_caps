@@ -351,11 +351,5 @@
     "day_month_and_year": "%B %e, %Y",
     "month_and_year": "%B %Y",
     "date_and_time": "%B %e, %Y at %I:%M %P"
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }
