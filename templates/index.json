@@ -2,24 +2,8 @@
   "sections": {
     "1656545097e1b918ec": {
       "type": "hero",
-      "disabled": true,
-      "blocks": {
-        "165654509731fc937f-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-oyster",
-            "style": "solid",
-            "size": "normal"
-          }
-        }
-      },
-      "block_order": [
-        "165654509731fc937f-2"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER-02.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled_design_22.jpg",
         "video": "",
         "alignment": "h-center v-center",
         "color_heading": "#121212",
@@ -29,7 +13,7 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "mobile_min_height": 400,
-        "image_mobile": "shopify:\/\/shop_images\/Laptop_Computer_Illustration_Instagram_posts_2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Untitled_design_23.jpg",
         "video_mobile": "",
         "expanded": true,
         "collapsed": true,
@@ -37,8 +21,98 @@
         "show_on_mobile": true
       }
     },
+    "64a41830-5932-4725-9224-c4aadefebb4b": {
+      "type": "custom-content",
+      "blocks": {
+        "a95adcf9-20fd-49c5-b931-0cb93d924ecd": {
+          "type": "html",
+          "settings": {
+            "code": "<center> <a class=\"btn border shape square shaped\" href=\"\/collections\/grow-your-own-mushroom-kits\">  <img src=\"\"> Shop Canada\n <\/a> <a class=\"btn accent normal\" href=\"https:\/\/happycaps.ca\/apps\/store-locator\"> Shop Local Retailers\n  <\/a>\n\n<a class=\"btn border shape square shaped\" href=\"collections\/grow-your-own-mushroom-kits-u-s-a\"> Shop U.S.A.\n  <\/a> <\/center>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "a95adcf9-20fd-49c5-b931-0cb93d924ecd"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": true,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "f68aa2fe-5bf8-4446-9571-2064344a55c1": {
+      "type": "custom-content",
+      "disabled": true,
+      "blocks": {
+        "19005c3f-6e21-4a8b-b83b-82eef396af53": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center"
+          }
+        },
+        "template--15802950025367__f68aa2fe-5bf8-4446-9571-2064344a55c1-1671041771fa4693ad-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_d05a4eb5-f579-4cfe-b63c-365ce2a99ca8.jpg",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "6fefc844-fac9-483a-8582-ecd3307f9791": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_31a4d283-0870-4b89-8087-66a1e38d4752.jpg",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "bb01ce3a-c30e-4a11-85c7-bf482b453036": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_a05d7cf8-8327-4e35-8cad-8904631cc157.jpg",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "e624875b-c09a-402f-9b97-89995ce434c1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_b29683de-417e-4c0b-a72d-4f667d447121.jpg",
+            "width": "25%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "19005c3f-6e21-4a8b-b83b-82eef396af53",
+        "template--15802950025367__f68aa2fe-5bf8-4446-9571-2064344a55c1-1671041771fa4693ad-1",
+        "6fefc844-fac9-483a-8582-ecd3307f9791",
+        "bb01ce3a-c30e-4a11-85c7-bf482b453036",
+        "e624875b-c09a-402f-9b97-89995ce434c1"
+      ],
+      "settings": {
+        "heading": "",
+        "show_background": true,
+        "expanded": false,
+        "expanded_content": false,
+        "collapsed": true,
+        "show_on_desktop": true,
+        "show_on_mobile": false
+      }
+    },
     "1652148261a35b659e": {
       "type": "hero",
+      "disabled": true,
       "blocks": {
         "050a7609-d85b-4a66-b6cd-090e25062ac7": {
           "type": "button",
@@ -84,6 +158,7 @@
     },
     "hero": {
       "type": "hero",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -150,6 +225,7 @@
     },
     "ca94331f-309a-4b12-91b6-86aa27a0972b": {
       "type": "call-to-action",
+      "disabled": true,
       "blocks": {
         "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-0": {
           "type": "banner",
@@ -282,7 +358,7 @@
         "show_background": true,
         "expanded": true,
         "expanded_content": true,
-        "collapsed": false,
+        "collapsed": true,
         "show_on_desktop": true,
         "show_on_mobile": false
       }
@@ -857,6 +933,8 @@
   },
   "order": [
     "1656545097e1b918ec",
+    "64a41830-5932-4725-9224-c4aadefebb4b",
+    "f68aa2fe-5bf8-4446-9571-2064344a55c1",
     "1652148261a35b659e",
     "hero",
     "ca94331f-309a-4b12-91b6-86aa27a0972b",
