@@ -3,7 +3,7 @@
     "1656545097e1b918ec": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_22.jpg",
+        "image": "shopify:\/\/shop_images\/AMAZON_A_1_-07_dea94cce-bab3-4fd8-9367-36b56f2194ae.jpg",
         "video": "",
         "alignment": "h-center v-center",
         "color_heading": "#121212",
@@ -12,8 +12,8 @@
         "color_paragraph": "#121212",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
-        "mobile_min_height": 400,
-        "image_mobile": "shopify:\/\/shop_images\/Untitled_design_23.jpg",
+        "mobile_min_height": 200,
+        "image_mobile": "shopify:\/\/shop_images\/Untitled_Artwork_14.png",
         "video_mobile": "",
         "expanded": true,
         "collapsed": true,

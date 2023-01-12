@@ -218,9 +218,7 @@
           "block_background": "#fff",
           "style_colors_background": "#fbfbfb",
           "style_colors_border": "#000",
-          "style_colors_text": "#000",
-          "font_family_enabled": false,
-          "font_family_text": "helvetica_n3"
+          "style_colors_text": "#000"
         }
       },
       "855628211100114053": {
@@ -253,10 +251,7 @@
           "style_colors_cta_button": "#da674a",
           "style_colors_text": "#000000",
           "title_font_size": 21,
-          "text_font_size": 14,
-          "font_family_enabled": false,
-          "font_family_title": "helvetica_n4",
-          "font_family_text": "helvetica_n3"
+          "text_font_size": 14
         }
       }
     }
