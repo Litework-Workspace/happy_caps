@@ -2,8 +2,21 @@
   "sections": {
     "1656545097e1b918ec": {
       "type": "hero",
+      "blocks": {
+        "89013653-dfd9-44db-bb3a-52ae7ade3323": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Hero heading",
+            "max_width": 500
+          }
+        }
+      },
+      "block_order": [
+        "89013653-dfd9-44db-bb3a-52ae7ade3323"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/AMAZON_A_1_-07_dea94cce-bab3-4fd8-9367-36b56f2194ae.jpg",
+        "image": "shopify:\/\/shop_images\/HEROBANNER.jpg",
         "video": "",
         "alignment": "h-center v-center",
         "color_heading": "#121212",
