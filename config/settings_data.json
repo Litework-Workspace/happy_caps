@@ -311,7 +311,7 @@
       "product_grid_secondary_enable": true,
       "product_grid_mouseover_gradient_enable": false,
       "product_sale_tag_option": "discount",
-      "cart_type": "drawer",
+      "cart_type": "page",
       "cart_notes_enable": false
     },
     "Fluor": {
@@ -371,7 +371,7 @@
       "product_grid_mouseover_gradient_enable": false,
       "product_grid_text_alignment": "one-line",
       "product_sale_tag_option": "text",
-      "cart_type": "drawer",
+      "cart_type": "page",
       "cart_notes_enable": false
     },
     "Pastel": {
@@ -409,7 +409,7 @@
       "product_grid_secondary_enable": false,
       "product_grid_mouseover_gradient_enable": false,
       "product_sale_tag_option": "text",
-      "cart_type": "drawer",
+      "cart_type": "page",
       "cart_notes_enable": false,
       "sections": {
         "announcement-bar": {

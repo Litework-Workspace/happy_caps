@@ -1,4 +1,4 @@
-{% form 'product', product %}
+{% form 'product', product, data-productid: product.id %}
   {% assign current_variant = product.selected_or_first_available_variant %}
   {%- assign has_variant_picker = false -%}
   {%- for block in section.blocks -%}
@@ -92,7 +92,7 @@
       {%- when 'variant_picker' -%}
         {%- assign has_variant_picker = true -%}
         {% if product.has_only_default_variant %}
-          <input name="id" type="hidden" value="{{ current_variant.id }}">
+          <input name="id" data-productid="{{ product.id }}" type="hidden" value="{{ current_variant.id }}">
         {% else %}
           <div>
             {% for option in product.options_with_values %}
@@ -181,7 +181,7 @@
             {% endfor %}
           </div>
           <div class="select shopify-select product-variants no-js">
-            <select name="id" id="productSelect-{{ section.id }}">
+            <select name="id" data-productid="{{ product.id }}" id="productSelect-{{ section.id }}">
               {% for variant in product.variants %}
                 {% if variant.available %}
                   <option value="{{variant.id}}" data-sku="{{ variant.sku }}" {% if variant == current_variant %} selected="selected" {% endif %}>
@@ -280,6 +280,6 @@
     </div>
   {%- endfor -%}
   {% unless has_variant_picker %}
-    <input type="hidden" name="id" value="{{ current_variant.id }}">
+    <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ current_variant.id }}">
   {% endunless %}
 {% endform %}
