@@ -1,5 +1,45 @@
 {
   "sections": {
+    "0d503673-107a-4616-8a86-bd334eaf735b": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--15802950025367__0d503673-107a-4616-8a86-bd334eaf735b-1676945827c32a1b5b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_54.png",
+            "image_for_mobile": "shopify:\/\/shop_images\/Untitled_design_55.png",
+            "slide_text_color": "is-dark",
+            "text_alignment": "center",
+            "heading": "",
+            "subheading": "",
+            "button": "",
+            "link": "",
+            "alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15802950025367__0d503673-107a-4616-8a86-bd334eaf735b-1676945827c32a1b5b-0"
+      ],
+      "settings": {
+        "arrows": false,
+        "dots": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "use_fade": "false",
+        "slideshow_height": "large",
+        "color_light_slideshow": "#ffffff",
+        "color_dark_slideshow": "#121212",
+        "heading": "",
+        "show_background": false,
+        "expanded": true,
+        "expanded_content": true,
+        "collapsed": true,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
     "1656545097e1b918ec": {
       "type": "hero",
       "blocks": {
@@ -737,16 +777,6 @@
     "1652149164228d719a": {
       "type": "featured-products",
       "blocks": {
-        "1652149164453ecbbe-2": {
-          "type": "product",
-          "settings": {
-            "product": "grow-your-own-mushroom-kit-shiitake",
-            "url": "",
-            "title": "",
-            "subtitle": "",
-            "hide_cta": false
-          }
-        },
         "1652149164453ecbbe-0": {
           "type": "product",
           "settings": {
@@ -767,6 +797,16 @@
             "hide_cta": false
           }
         },
+        "1652149164453ecbbe-2": {
+          "type": "product",
+          "settings": {
+            "product": "grow-your-own-mushroom-kit-shiitake",
+            "url": "",
+            "title": "",
+            "subtitle": "Back in stock soon",
+            "hide_cta": true
+          }
+        },
         "5735db1b-c42d-4067-a915-f9471eec82f7": {
           "type": "product",
           "settings": {
@@ -779,9 +819,9 @@
         }
       },
       "block_order": [
-        "1652149164453ecbbe-2",
         "1652149164453ecbbe-0",
         "1652149164453ecbbe-1",
+        "1652149164453ecbbe-2",
         "5735db1b-c42d-4067-a915-f9471eec82f7"
       ],
       "settings": {
@@ -945,6 +985,7 @@
     }
   },
   "order": [
+    "0d503673-107a-4616-8a86-bd334eaf735b",
     "1656545097e1b918ec",
     "64a41830-5932-4725-9224-c4aadefebb4b",
     "f68aa2fe-5bf8-4446-9571-2064344a55c1",
