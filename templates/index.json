@@ -338,7 +338,7 @@
           "type": "text",
           "settings": {
             "title": "Start Growing Today!",
-            "text": "<p>Happy Caps Mushroom Farm is a Canadian retailer and manufacturer of premium in-door home <a href=\"\/collections\/grow-your-own-mushroom-kits\" title=\"Grow Your Own Mushroom Kits\">mushroom growing kits<\/a> and<a href=\"\/products\/shiitake-mushroom-plug-spawn\" title=\"Shiitake Mushroom Plug Spawn\"> plugs<\/a>. Our mushroom kits are a <a href=\"\/blogs\/learn\/mycelium\" title=\"Mycelium\">fun, exciting, and delicous<\/a> way to experience the <a href=\"\/blogs\/learn\" title=\"Learn\">world of fungi<\/a>, pick one up and start growing today!<\/p>",
+            "text": "<p>Happy Caps Mushroom Farm is a Canadian retailer and manufacturer of premium indoor home <a href=\"\/collections\/grow-your-own-mushroom-kits\" title=\"Grow Your Own Mushroom Kits\">mushroom growing kits<\/a> and<a href=\"\/products\/shiitake-mushroom-plug-spawn\" title=\"Shiitake Mushroom Plug Spawn\"> plugs<\/a>. Our mushroom kits are a <a href=\"\/blogs\/learn\/mycelium\" title=\"Mycelium\">fun, exciting, and delicious<\/a> way to experience the <a href=\"\/blogs\/learn\" title=\"Learn\">world of fungi<\/a>, pick one up and start growing today!<\/p>",
             "width": "50%",
             "alignment": "center",
             "align_text": "center"
@@ -842,7 +842,7 @@
         "165275561411c411a3-6": {
           "type": "category",
           "settings": {
-            "text": "Growing Insturctions",
+            "text": "Growing Instructions",
             "link": "shopify:\/\/pages\/lions-mane-kit-instructions"
           }
         },
