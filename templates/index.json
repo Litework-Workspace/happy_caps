@@ -1,14 +1,22 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "0d503673-107a-4616-8a86-bd334eaf735b": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--15802950025367__0d503673-107a-4616-8a86-bd334eaf735b-1676945827c32a1b5b-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_54.png",
-            "image_for_mobile": "shopify:\/\/shop_images\/Untitled_design_55.png",
+            "image": "shopify://shop_images/Untitled_design_54.png",
+            "image_for_mobile": "shopify://shop_images/Untitled_design_55.png",
             "slide_text_color": "is-dark",
             "text_alignment": "center",
             "heading": "",
@@ -22,6 +30,7 @@
       "block_order": [
         "template--15802950025367__0d503673-107a-4616-8a86-bd334eaf735b-1676945827c32a1b5b-0"
       ],
+      "disabled": true,
       "settings": {
         "arrows": false,
         "dots": true,
@@ -56,7 +65,7 @@
         "89013653-dfd9-44db-bb3a-52ae7ade3323"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/HEROBANNER.jpg",
+        "image": "shopify://shop_images/HEROBANNER.jpg",
         "video": "",
         "alignment": "h-center v-center",
         "color_heading": "#121212",
@@ -66,7 +75,7 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "mobile_min_height": 200,
-        "image_mobile": "shopify:\/\/shop_images\/Untitled_Artwork_14.png",
+        "image_mobile": "shopify://shop_images/Untitled_Artwork_14.png",
         "video_mobile": "",
         "expanded": true,
         "collapsed": true,
@@ -80,7 +89,7 @@
         "a95adcf9-20fd-49c5-b931-0cb93d924ecd": {
           "type": "html",
           "settings": {
-            "code": "<center> <a class=\"btn border shape square shaped\" href=\"\/collections\/grow-your-own-mushroom-kits\">  <img src=\"\"> Shop Canada\n <\/a> <a class=\"btn accent normal\" href=\"https:\/\/happycaps.ca\/apps\/store-locator\"> Shop Local Retailers\n  <\/a>\n\n<a class=\"btn border shape square shaped\" href=\"collections\/grow-your-own-mushroom-kits-u-s-a\"> Shop U.S.A.\n  <\/a> <\/center>",
+            "code": "<center> <a class=\"btn border shape square shaped\" href=\"/collections/grow-your-own-mushroom-kits\">  <img src=\"\"> Shop Canada\n </a> <a class=\"btn accent normal\" href=\"https://happycaps.ca/apps/store-locator\"> Shop Local Retailers\n  </a>\n\n<a class=\"btn border shape square shaped\" href=\"collections/grow-your-own-mushroom-kits-u-s-a\"> Shop U.S.A.\n  </a> </center>",
             "width": "100%"
           }
         }
@@ -100,7 +109,6 @@
     },
     "f68aa2fe-5bf8-4446-9571-2064344a55c1": {
       "type": "custom-content",
-      "disabled": true,
       "blocks": {
         "19005c3f-6e21-4a8b-b83b-82eef396af53": {
           "type": "text",
@@ -116,7 +124,7 @@
         "template--15802950025367__f68aa2fe-5bf8-4446-9571-2064344a55c1-1671041771fa4693ad-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_d05a4eb5-f579-4cfe-b63c-365ce2a99ca8.jpg",
+            "image": "shopify://shop_images/2_d05a4eb5-f579-4cfe-b63c-365ce2a99ca8.jpg",
             "width": "25%",
             "alignment": "center"
           }
@@ -124,7 +132,7 @@
         "6fefc844-fac9-483a-8582-ecd3307f9791": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_31a4d283-0870-4b89-8087-66a1e38d4752.jpg",
+            "image": "shopify://shop_images/3_31a4d283-0870-4b89-8087-66a1e38d4752.jpg",
             "width": "25%",
             "alignment": "center"
           }
@@ -132,7 +140,7 @@
         "bb01ce3a-c30e-4a11-85c7-bf482b453036": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_a05d7cf8-8327-4e35-8cad-8904631cc157.jpg",
+            "image": "shopify://shop_images/4_a05d7cf8-8327-4e35-8cad-8904631cc157.jpg",
             "width": "25%",
             "alignment": "center"
           }
@@ -140,7 +148,7 @@
         "e624875b-c09a-402f-9b97-89995ce434c1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_b29683de-417e-4c0b-a72d-4f667d447121.jpg",
+            "image": "shopify://shop_images/5_b29683de-417e-4c0b-a72d-4f667d447121.jpg",
             "width": "25%",
             "alignment": "center"
           }
@@ -153,6 +161,7 @@
         "bb01ce3a-c30e-4a11-85c7-bf482b453036",
         "e624875b-c09a-402f-9b97-89995ce434c1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "show_background": true,
@@ -165,13 +174,12 @@
     },
     "1652148261a35b659e": {
       "type": "hero",
-      "disabled": true,
       "blocks": {
         "050a7609-d85b-4a66-b6cd-090e25062ac7": {
           "type": "button",
           "settings": {
             "text": "Shop In Canada",
-            "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits",
+            "link": "shopify://collections/grow-your-own-mushroom-kits",
             "style": "accent",
             "size": "normal"
           }
@@ -180,7 +188,7 @@
           "type": "button",
           "settings": {
             "text": "Shop In U.S.A",
-            "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits-u-s-a",
+            "link": "shopify://collections/grow-your-own-mushroom-kits-u-s-a",
             "style": "accent",
             "size": "small"
           }
@@ -190,8 +198,9 @@
         "050a7609-d85b-4a66-b6cd-090e25062ac7",
         "751a7f5b-4868-45c1-95d0-73fb98b66651"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_4.jpg",
+        "image": "shopify://shop_images/Happy_Caps_-_Mobile_12x17_4.jpg",
         "video": "",
         "alignment": "h-center v-bottom",
         "color_heading": "#121212",
@@ -201,7 +210,7 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "mobile_min_height": 500,
-        "image_mobile": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_4.jpg",
+        "image_mobile": "shopify://shop_images/Happy_Caps_-_Mobile_12x17_4.jpg",
         "video_mobile": "",
         "expanded": true,
         "collapsed": true,
@@ -211,7 +220,6 @@
     },
     "hero": {
       "type": "hero",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -223,7 +231,7 @@
         "2658dba5-dc8b-47e5-8531-7da17f16dfd9": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>   <\/p><p><\/p>",
+            "text": "<p>   </p><p></p>",
             "max_width": 500
           }
         },
@@ -237,7 +245,7 @@
         "f19a14e7-20d7-42dc-af3f-97a091f5cc38": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Shopping In The U.S? <a href=\"\/collections\/grow-your-own-mushroom-kits-u-s-a\" title=\"Grow Your Own Mushroom Kits - U.S.A\">Click Here <\/a><\/p>",
+            "text": "<p>Shopping In The U.S? <a href=\"/collections/grow-your-own-mushroom-kits-u-s-a\" title=\"Grow Your Own Mushroom Kits - U.S.A\">Click Here </a></p>",
             "max_width": 500
           }
         },
@@ -245,7 +253,7 @@
           "type": "button",
           "settings": {
             "text": "Shop MUSHROOM KITS",
-            "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits",
+            "link": "shopify://collections/grow-your-own-mushroom-kits",
             "style": "accent",
             "size": "normal"
           }
@@ -258,8 +266,9 @@
         "f19a14e7-20d7-42dc-af3f-97a091f5cc38",
         "button"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Thank_You_For_Shopping_1.jpg",
+        "image": "shopify://shop_images/Thank_You_For_Shopping_1.jpg",
         "video": "",
         "alignment": "h-right v-center",
         "color_heading": "#121212",
@@ -278,14 +287,13 @@
     },
     "ca94331f-309a-4b12-91b6-86aa27a0972b": {
       "type": "call-to-action",
-      "disabled": true,
       "blocks": {
         "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-0": {
           "type": "banner",
           "settings": {
             "title": "Canadian Mushroom Kits",
             "subtitle": "",
-            "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits"
+            "link": "shopify://collections/grow-your-own-mushroom-kits"
           }
         },
         "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-1": {
@@ -293,7 +301,7 @@
           "settings": {
             "title": "U.S.A <br> Mushroom Kits",
             "subtitle": "",
-            "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits-u-s-a"
+            "link": "shopify://collections/grow-your-own-mushroom-kits-u-s-a"
           }
         }
       },
@@ -301,6 +309,7 @@
         "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-0",
         "template--15802950025367__ca94331f-309a-4b12-91b6-86aa27a0972b-16693835894681513a-1"
       ],
+      "disabled": true,
       "settings": {
         "show_background": false,
         "expanded": false,
@@ -316,7 +325,7 @@
         "5333597a-0e98-4bb7-a33f-ae6b8c156210": {
           "type": "html",
           "settings": {
-            "code": "<center>\n\n<h1> Start Growing Today! <\/h1>\n\n<\/center>",
+            "code": "<center>\n\n<h1> Start Growing Today! </h1>\n\n</center>",
             "width": "100%"
           }
         },
@@ -324,7 +333,7 @@
           "type": "text",
           "settings": {
             "title": "",
-            "text": "<p>Happy Caps Mushroom Farm is a Canadian retailer and manufacturer of premium in-door home <a href=\"\/collections\/grow-your-own-mushroom-kits\" title=\"Grow Your Own Mushroom Kits\">mushroom growing kits<\/a> and<a href=\"\/products\/shiitake-mushroom-plug-spawn\" title=\"Shiitake Mushroom Plug Spawn\"> plugs<\/a>. Our mushroom kits are a <a href=\"\/blogs\/learn\" title=\"Learn\">fun, exciting, and delicous<\/a> ways to experience the <a href=\"\/blogs\/learn\" title=\"Learn\"> world of fungi<\/a>, pick one up and start growing today!<\/p>",
+            "text": "<p>Happy Caps Mushroom Farm is a Canadian retailer and manufacturer of premium in-door home <a href=\"/collections/grow-your-own-mushroom-kits\" title=\"Grow Your Own Mushroom Kits\">mushroom growing kits</a> and<a href=\"/products/shiitake-mushroom-plug-spawn\" title=\"Shiitake Mushroom Plug Spawn\"> plugs</a>. Our mushroom kits are a <a href=\"/blogs/learn\" title=\"Learn\">fun, exciting, and delicous</a> ways to experience the <a href=\"/blogs/learn\" title=\"Learn\"> world of fungi</a>, pick one up and start growing today!</p>",
             "width": "50%",
             "alignment": "center",
             "align_text": "left"
@@ -334,7 +343,7 @@
           "type": "html",
           "disabled": true,
           "settings": {
-            "code": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-c63405d2-6589-4d4d-9f88-bae2b8595e4a\"><\/div>",
+            "code": "<script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>\n<div class=\"elfsight-app-c63405d2-6589-4d4d-9f88-bae2b8595e4a\"></div>",
             "width": "100%"
           }
         },
@@ -369,7 +378,7 @@
         "424b80c6-56c0-408e-8998-6d12e3567ef2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Happy_Caps_-_Product_Image_1_a051d99e-7ae0-4c5f-a31f-e6684866b353.png",
+            "image": "shopify://shop_images/Happy_Caps_-_Product_Image_1_a051d99e-7ae0-4c5f-a31f-e6684866b353.png",
             "width": "25%",
             "alignment": "center"
           }
@@ -378,7 +387,7 @@
           "type": "text",
           "settings": {
             "title": "Start Growing Today!",
-            "text": "<p>Happy Caps Mushroom Farm is a Canadian retailer and manufacturer of premium indoor home <a href=\"\/collections\/grow-your-own-mushroom-kits\" title=\"Grow Your Own Mushroom Kits\">mushroom growing kits<\/a> and<a href=\"\/products\/shiitake-mushroom-plug-spawn\" title=\"Shiitake Mushroom Plug Spawn\"> plugs<\/a>. Our mushroom kits are a <a href=\"\/blogs\/learn\/mycelium\" title=\"Mycelium\">fun, exciting, and delicious<\/a> way to experience the <a href=\"\/blogs\/learn\" title=\"Learn\">world of fungi<\/a>, pick one up and start growing today!<\/p>",
+            "text": "<p>Happy Caps Mushroom Farm is a Canadian retailer and manufacturer of premium indoor home <a href=\"/collections/grow-your-own-mushroom-kits\" title=\"Grow Your Own Mushroom Kits\">mushroom growing kits</a> and<a href=\"/products/shiitake-mushroom-plug-spawn\" title=\"Shiitake Mushroom Plug Spawn\"> plugs</a>. Our mushroom kits are a <a href=\"/blogs/learn/mycelium\" title=\"Mycelium\">fun, exciting, and delicious</a> way to experience the <a href=\"/blogs/learn\" title=\"Learn\">world of fungi</a>, pick one up and start growing today!</p>",
             "width": "50%",
             "alignment": "center",
             "align_text": "center"
@@ -387,7 +396,7 @@
         "830a808f-f2c7-401f-960e-02d610a69955": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Updated_boys_1.png",
+            "image": "shopify://shop_images/Updated_boys_1.png",
             "width": "25%",
             "alignment": "center"
           }
@@ -395,7 +404,7 @@
         "a855ef93-fcfa-4d3c-a5cb-a44f065ca55c": {
           "type": "html",
           "settings": {
-            "code": "<center>\n\n<video width=\"100%\" height=\"auto\" autoplay=\"\" muted=\"\">\n\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b7f92960033447f682cbdc84e99430b5.mp4\">\n  \n  Your browser does not support the video tag.\n  \n<\/source><\/video>\n\n<\/center>",
+            "code": "<center>\n\n<video width=\"100%\" height=\"auto\" autoplay=\"\" muted=\"\">\n\n  <source src=\"https://cdn.shopify.com/videos/c/o/v/b7f92960033447f682cbdc84e99430b5.mp4\">\n  \n  Your browser does not support the video tag.\n  \n</source></video>\n\n</center>",
             "width": "100%"
           }
         }
@@ -419,10 +428,10 @@
     "16521470469089b9e4": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Happy_Caps_-_Product_Image_2.png",
-        "subtitle": "<span style=\"color : #D674A;\"> <h2> <span style=\"color : #DD674A;\"> Step 1 <\/span>\n<\/h2><\/span>",
-        "title": "<h1> Open The Bag<\/h1>",
-        "text": "<p>First, cut open the plastic bag in 2 spots, then set your mushroom block on a kitchen counter or a shelf indoors away from direct heat and sunlight.<\/p>",
+        "image": "shopify://shop_images/Happy_Caps_-_Product_Image_2.png",
+        "subtitle": "<span style=\"color : #D674A;\"> <h2> <span style=\"color : #DD674A;\"> Step 1 </span>\n</h2></span>",
+        "title": "<h1> Open The Bag</h1>",
+        "text": "<p>First, cut open the plastic bag in 2 spots, then set your mushroom block on a kitchen counter or a shelf indoors away from direct heat and sunlight.</p>",
         "text_position": "left",
         "show_background": false,
         "expanded": false,
@@ -435,10 +444,10 @@
     "165214717733bca1af": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Happy_Caps_-_Product_Image_3.png",
-        "subtitle": "<span style=\"color : #D674A;\"> <h2> <span style=\"color : #DD674A;\"> Step 2 <\/span>\n<\/h2><\/span>",
-        "title": "<h1>Lightly Mist<\/h1>",
-        "text": "<p>Next, gently mist the mushroom block with water a few times a day to keep it nice and damp, after a day or two the mushrooms will begin to grow!<\/p>",
+        "image": "shopify://shop_images/Happy_Caps_-_Product_Image_3.png",
+        "subtitle": "<span style=\"color : #D674A;\"> <h2> <span style=\"color : #DD674A;\"> Step 2 </span>\n</h2></span>",
+        "title": "<h1>Lightly Mist</h1>",
+        "text": "<p>Next, gently mist the mushroom block with water a few times a day to keep it nice and damp, after a day or two the mushrooms will begin to grow!</p>",
         "text_position": "right",
         "show_background": false,
         "expanded": false,
@@ -451,10 +460,10 @@
     "16521472667d649cdb": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Happy_Caps_-_Product_Image_4.png",
-        "subtitle": "<span style=\"color : #D674A;\"> <h2> <span style=\"color : #DD674A;\"> Step 3 <\/span>\n<\/h2><\/span>",
-        "title": "<h1> Ready To Harvest<\/h1>",
-        "text": "<p>Finally, you are ready to harvest your fresh gourmet mushrooms! Within a few weeks of starting the kit you will have enough for cooking & more! The mushrooms will continue to grow for you to enjoy after the 1st harvest.<\/p>",
+        "image": "shopify://shop_images/Happy_Caps_-_Product_Image_4.png",
+        "subtitle": "<span style=\"color : #D674A;\"> <h2> <span style=\"color : #DD674A;\"> Step 3 </span>\n</h2></span>",
+        "title": "<h1> Ready To Harvest</h1>",
+        "text": "<p>Finally, you are ready to harvest your fresh gourmet mushrooms! Within a few weeks of starting the kit you will have enough for cooking & more! The mushrooms will continue to grow for you to enjoy after the 1st harvest.</p>",
         "text_position": "left",
         "show_background": false,
         "expanded": false,
@@ -467,8 +476,8 @@
     "165292123888e62d82": {
       "type": "featured-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_c261d344-dda1-42d5-8197-0674d831e9a0.png",
-        "image_mobile": "shopify:\/\/shop_images\/Happy_Caps_-_Mobile_12x17_8.jpg",
+        "image": "shopify://shop_images/Happy_Caps_-_Mobile_12x17_c261d344-dda1-42d5-8197-0674d831e9a0.png",
+        "image_mobile": "shopify://shop_images/Happy_Caps_-_Mobile_12x17_8.jpg",
         "link": "",
         "heading": "",
         "show_background": false,
@@ -485,7 +494,7 @@
         "cb5323ec-28b8-4d72-9d02-a78a46c4e044": {
           "type": "html",
           "settings": {
-            "code": "<center>\n\n<h1>\n\nFresh Fungi From \n<br> Farm To Table\n\n<\/h1>\n\n<\/center>",
+            "code": "<center>\n\n<h1>\n\nFresh Fungi From \n<br> Farm To Table\n\n</h1>\n\n</center>",
             "width": "50%"
           }
         },
@@ -493,7 +502,7 @@
           "type": "text",
           "settings": {
             "title": "",
-            "text": "<p>Once you've <a href=\"\/pages\/lions-mane-kit-instructions\" title=\"Detailed Kit Instructions\">harvested your mushroom kit<\/a> the uses are endless, personaly we love a good mushroom stirfry, checkout some of our<a href=\"\/blogs\/learn\/mycelium\" title=\"Mycelium\"> home made recipes here!<\/a><\/p>",
+            "text": "<p>Once you've <a href=\"/pages/lions-mane-kit-instructions\" title=\"Detailed Kit Instructions\">harvested your mushroom kit</a> the uses are endless, personaly we love a good mushroom stirfry, checkout some of our<a href=\"/blogs/learn/mycelium\" title=\"Mycelium\"> home made recipes here!</a></p>",
             "width": "50%",
             "alignment": "center",
             "align_text": "left"
@@ -516,12 +525,11 @@
     },
     "1652922418ca670ca9": {
       "type": "hero",
-      "disabled": true,
       "blocks": {
         "165292241821da1a7e-0": {
           "type": "heading",
           "settings": {
-            "text": "<h1> Grow Something <\/h1>\n<h1> <span style=\"color : #67B50B;\"> Magical <\/span> Today<\/h1>",
+            "text": "<h1> Grow Something </h1>\n<h1> <span style=\"color : #67B50B;\"> Magical </span> Today</h1>",
             "max_width": 560
           }
         },
@@ -529,7 +537,7 @@
           "type": "button",
           "settings": {
             "text": "Shop All Mushroom Kits",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "style": "accent",
             "size": "normal"
           }
@@ -539,8 +547,9 @@
         "165292241821da1a7e-0",
         "165292241821da1a7e-2"
       ],
+      "disabled": true,
       "settings": {
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/45e29a759d354294ae7519b039d94e01.mp4",
+        "video": "https://cdn.shopify.com/videos/c/o/v/45e29a759d354294ae7519b039d94e01.mp4",
         "alignment": "h-right v-center",
         "color_heading": "#121212",
         "color_subheading": "#121212",
@@ -558,7 +567,6 @@
     },
     "165292042702b7db8d": {
       "type": "hero",
-      "disabled": true,
       "blocks": {
         "16529204274b66a9e6-0": {
           "type": "heading",
@@ -579,8 +587,9 @@
         "16529204274b66a9e6-0",
         "16529204274b66a9e6-1"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/AMAZON_A_1_-13.jpg",
+        "image": "shopify://shop_images/AMAZON_A_1_-13.jpg",
         "video": "",
         "alignment": "h-center v-center",
         "color_heading": "#121212",
@@ -590,7 +599,7 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "mobile_min_height": 500,
-        "image_mobile": "shopify:\/\/shop_images\/AMAZON_A_1_-13.jpg",
+        "image_mobile": "shopify://shop_images/AMAZON_A_1_-13.jpg",
         "video_mobile": "",
         "expanded": true,
         "collapsed": false,
@@ -606,9 +615,9 @@
           "settings": {
             "show_image": true,
             "image_type": "custom",
-            "image": "shopify:\/\/shop_images\/AMAZON_A_1_-04_1.jpg",
+            "image": "shopify://shop_images/AMAZON_A_1_-04_1.jpg",
             "title": "Mushroom Harvest",
-            "text": "<p>Each mushroom kit will spawn fresh mushrooms for 2-3 harvests within a few days!<\/p>",
+            "text": "<p>Each mushroom kit will spawn fresh mushrooms for 2-3 harvests within a few days!</p>",
             "link": ""
           }
         },
@@ -617,9 +626,9 @@
           "settings": {
             "show_image": true,
             "image_type": "custom",
-            "image": "shopify:\/\/shop_images\/AMAZON_A_1_-05_1.jpg",
+            "image": "shopify://shop_images/AMAZON_A_1_-05_1.jpg",
             "title": "Cooking Mushrooms",
-            "text": "<p>Harvested mushrooms provide a great addition to your favorite cooking recipes!<\/p>",
+            "text": "<p>Harvested mushrooms provide a great addition to your favorite cooking recipes!</p>",
             "link": ""
           }
         },
@@ -628,9 +637,9 @@
           "settings": {
             "show_image": true,
             "image_type": "custom",
-            "image": "shopify:\/\/shop_images\/AMAZON_A_1_-06.jpg",
+            "image": "shopify://shop_images/AMAZON_A_1_-06.jpg",
             "title": "Enjoy Your Next Meal",
-            "text": "<p>Let us know what you make with your mushroom harvest and share with your friends!<\/p>",
+            "text": "<p>Let us know what you make with your mushroom harvest and share with your friends!</p>",
             "link": ""
           }
         }
@@ -642,7 +651,7 @@
       ],
       "settings": {
         "heading": "Fresh Fungi - Farm To Table",
-        "subheading": "<p>Once you've <a href=\"\/pages\/lions-mane-kit-instructions\" title=\"Detailed Kit Instructions\">harvested your mushroom kit<\/a> the uses are endless, personally, we love a good mushroom stirfry, check out some of our<a href=\"\/blogs\/learn\/mycelium\" title=\"Mycelium\"> home made recipes here!<\/a><\/p>",
+        "subheading": "<p>Once you've <a href=\"/pages/lions-mane-kit-instructions\" title=\"Detailed Kit Instructions\">harvested your mushroom kit</a> the uses are endless, personally, we love a good mushroom stirfry, check out some of our<a href=\"/blogs/learn/mycelium\" title=\"Mycelium\"> home made recipes here!</a></p>",
         "columns": 3,
         "align": "center",
         "show_background": false,
@@ -661,9 +670,9 @@
           "settings": {
             "show_image": true,
             "image_type": "custom",
-            "image": "shopify:\/\/shop_images\/TIER_MUSHROOMS-01.jpg",
+            "image": "shopify://shop_images/TIER_MUSHROOMS-01.jpg",
             "title": "",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link": ""
           }
         }
@@ -673,7 +682,7 @@
       ],
       "settings": {
         "heading": "Pick The Perfect Kit For You To Grow",
-        "subheading": "<p>Not sure which <a href=\"\/collections\/grow-your-own-mushroom-kits\" title=\"Shop Grow Your Own Mushroom Kits\">mushroom kit<\/a> to buy? Already grown a <a href=\"\/products\/grow-your-own-mushroom-kit-oyster\" title=\"Oyster Mushroom Kit\">beginner kit<\/a> and want to try our <a href=\"\/products\/grow-your-own-mushroom-kit-lions-mane\" title=\"Lion's Mane Mushroom Kit\">experienced<\/a> or <a href=\"\/products\/grow-your-own-mushroom-kit-shiitake\" title=\"Shiitake Mushroom Kit\">advanced kits<\/a>? Check out more details below!<\/p>",
+        "subheading": "<p>Not sure which <a href=\"/collections/grow-your-own-mushroom-kits\" title=\"Shop Grow Your Own Mushroom Kits\">mushroom kit</a> to buy? Already grown a <a href=\"/products/grow-your-own-mushroom-kit-oyster\" title=\"Oyster Mushroom Kit\">beginner kit</a> and want to try our <a href=\"/products/grow-your-own-mushroom-kit-lions-mane\" title=\"Lion's Mane Mushroom Kit\">experienced</a> or <a href=\"/products/grow-your-own-mushroom-kit-shiitake\" title=\"Shiitake Mushroom Kit\">advanced kits</a>? Check out more details below!</p>",
         "columns": 1,
         "align": "center",
         "show_background": false,
@@ -690,7 +699,7 @@
         "845aaac9-d368-41f9-9989-083640ea7e2d": {
           "type": "html",
           "settings": {
-            "code": "<center>\n<h1>\n\nPick The Perfect Kit \n<br> For You To Grow\n<\/h1>\n<\/center>",
+            "code": "<center>\n<h1>\n\nPick The Perfect Kit \n<br> For You To Grow\n</h1>\n</center>",
             "width": "50%"
           }
         },
@@ -698,7 +707,7 @@
           "type": "text",
           "settings": {
             "title": "",
-            "text": "<p>Not sure which <a href=\"\/collections\/grow-your-own-mushroom-kits\" title=\"Shop Grow Your Own Mushroom Kits\">mushroom kit<\/a> to start growing? Choose from <a href=\"\/products\/grow-your-own-mushroom-kit-oyster\" title=\"Oyster Mushroom Kit\">beginner<\/a>, <a href=\"\/products\/grow-your-own-mushroom-kit-shiitake\" title=\"Shiitake Mushroom Kit\">experienced<\/a> to<a href=\"\/products\/grow-your-own-mushroom-kit-shiitake\" title=\"Shiitake Mushroom Kit\"> advanced<\/a> growing kits!<\/p>",
+            "text": "<p>Not sure which <a href=\"/collections/grow-your-own-mushroom-kits\" title=\"Shop Grow Your Own Mushroom Kits\">mushroom kit</a> to start growing? Choose from <a href=\"/products/grow-your-own-mushroom-kit-oyster\" title=\"Oyster Mushroom Kit\">beginner</a>, <a href=\"/products/grow-your-own-mushroom-kit-shiitake\" title=\"Shiitake Mushroom Kit\">experienced</a> to<a href=\"/products/grow-your-own-mushroom-kit-shiitake\" title=\"Shiitake Mushroom Kit\"> advanced</a> growing kits!</p>",
             "width": "50%",
             "alignment": "center",
             "align_text": "left"
@@ -727,10 +736,10 @@
           "settings": {
             "show_image": true,
             "image_type": "custom",
-            "image": "shopify:\/\/shop_images\/TIER_MUSHROOMS-02.jpg",
+            "image": "shopify://shop_images/TIER_MUSHROOMS-02.jpg",
             "title": "Oyster",
-            "text": "<p><\/p>",
-            "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-oyster"
+            "text": "<p></p>",
+            "link": "shopify://products/grow-your-own-mushroom-kit-oyster"
           }
         },
         "1659720811f8b242b9-1": {
@@ -738,10 +747,10 @@
           "settings": {
             "show_image": true,
             "image_type": "custom",
-            "image": "shopify:\/\/shop_images\/TIER_MUSHROOMS-03.jpg",
+            "image": "shopify://shop_images/TIER_MUSHROOMS-03.jpg",
             "title": "Lions Mane",
-            "text": "<p><\/p>",
-            "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-lions-mane"
+            "text": "<p></p>",
+            "link": "shopify://products/grow-your-own-mushroom-kit-lions-mane"
           }
         },
         "1659720811f8b242b9-2": {
@@ -749,10 +758,10 @@
           "settings": {
             "show_image": true,
             "image_type": "custom",
-            "image": "shopify:\/\/shop_images\/TIER_MUSHROOMS-04.jpg",
+            "image": "shopify://shop_images/TIER_MUSHROOMS-04.jpg",
             "title": "Shiitake",
-            "text": "<p><\/p>",
-            "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-shiitake"
+            "text": "<p></p>",
+            "link": "shopify://products/grow-your-own-mushroom-kit-shiitake"
           }
         }
       },
@@ -763,7 +772,7 @@
       ],
       "settings": {
         "heading": "",
-        "subheading": "<p><\/p>",
+        "subheading": "<p></p>",
         "columns": 3,
         "align": "center",
         "show_background": false,
@@ -841,70 +850,70 @@
           "type": "category",
           "settings": {
             "text": "Shiitake",
-            "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-shiitake"
+            "link": "shopify://products/grow-your-own-mushroom-kit-shiitake"
           }
         },
         "165275561411c411a3-1": {
           "type": "category",
           "settings": {
             "text": "Lions Mane",
-            "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-lions-mane"
+            "link": "shopify://products/grow-your-own-mushroom-kit-lions-mane"
           }
         },
         "165275561411c411a3-2": {
           "type": "category",
           "settings": {
             "text": "Oyster",
-            "link": "shopify:\/\/products\/grow-your-own-mushroom-kit-oyster"
+            "link": "shopify://products/grow-your-own-mushroom-kit-oyster"
           }
         },
         "165275561411c411a3-3": {
           "type": "category",
           "settings": {
             "text": "Mushroom Kits",
-            "link": "shopify:\/\/collections\/grow-your-own-mushroom-kits"
+            "link": "shopify://collections/grow-your-own-mushroom-kits"
           }
         },
         "165275561411c411a3-4": {
           "type": "category",
           "settings": {
             "text": "Mushroom Plugs",
-            "link": "shopify:\/\/products\/shiitake-mushroom-plug-spawn"
+            "link": "shopify://products/shiitake-mushroom-plug-spawn"
           }
         },
         "165275561411c411a3-5": {
           "type": "category",
           "settings": {
             "text": "Merch & Swag",
-            "link": "shopify:\/\/collections\/merch"
+            "link": "shopify://collections/merch-old"
           }
         },
         "165275561411c411a3-6": {
           "type": "category",
           "settings": {
             "text": "Growing Instructions",
-            "link": "shopify:\/\/pages\/lions-mane-kit-instructions"
+            "link": "shopify://pages/lions-mane-kit-instructions"
           }
         },
         "476f6063-373d-45bc-aef2-e2c1153e31b8": {
           "type": "category",
           "settings": {
             "text": "Our Founders",
-            "link": "shopify:\/\/pages\/contact"
+            "link": "shopify://pages/contact"
           }
         },
         "1e513c71-7a76-466f-996c-6248921da88a": {
           "type": "category",
           "settings": {
             "text": "Wholesale",
-            "link": "shopify:\/\/pages\/contact"
+            "link": "shopify://pages/contact"
           }
         },
         "0f82efa9-e8d0-4c30-914d-824350b3f1a3": {
           "type": "category",
           "settings": {
             "text": "Contact",
-            "link": "shopify:\/\/pages\/contact"
+            "link": "shopify://pages/contact"
           }
         }
       },
@@ -938,7 +947,7 @@
           "settings": {
             "title": "Mushroom Kit Questions?",
             "subtitle": "We are always happy to help!",
-            "link": "shopify:\/\/pages\/contact-test"
+            "link": "shopify://pages/contact-test"
           }
         },
         "165292152510602c0f-1": {
@@ -946,7 +955,7 @@
           "settings": {
             "title": "Wholesalers Wanted",
             "subtitle": "Own a store front? Lets grow together!",
-            "link": "shopify:\/\/pages\/wholesale-info-page"
+            "link": "shopify://pages/wholesale-info-page"
           }
         }
       },
@@ -966,7 +975,7 @@
     "16528393266f45fb58": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_22.png",
+        "image": "shopify://shop_images/Untitled_design_22.png",
         "video": "",
         "alignment": "h-center v-center",
         "color_heading": "#121212",
